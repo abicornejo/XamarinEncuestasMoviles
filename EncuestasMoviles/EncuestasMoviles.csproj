@@ -1,0 +1,711 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BDB3C6DF-FE0A-4380-A37F-70584D7B31B7}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EncuestasMoviles</RootNamespace>
+    <AssemblyName>EncuestasMoviles</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\EncuestasMoviles.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ADServices">
+      <HintPath>..\..\Shared Binaries\ADServices.dll</HintPath>
+    </Reference>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>..\..\Shared Binaries\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>..\..\Shared Binaries\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoComplete, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Shared Binaries\AutoComplete.dll</HintPath>
+    </Reference>
+    <Reference Include="bouncycastle">
+      <HintPath>..\..\Shared Binaries\bouncycastle.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Core">
+      <HintPath>..\..\Shared Binaries\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="com.dsi.pgp, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Shared Binaries\com.dsi.pgp.dll</HintPath>
+    </Reference>
+    <Reference Include="DataStructures, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Shared Binaries\DataStructures.dll</HintPath>
+    </Reference>
+    <Reference Include="FileComService, Version=1.0.12.1, Culture=neutral, PublicKeyToken=1da65b77b5027ee8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Shared Binaries\FileComService.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections, Version=1.0.1.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Shared Binaries\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=4.1.6.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Shared Binaries\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Shared Binaries\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\Shared Binaries\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Shared Binaries\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.ByteCode.Castle">
+      <HintPath>..\..\Shared Binaries\NHibernate.ByteCode.Castle.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.Mapping.Attributes">
+      <HintPath>..\..\Shared Binaries\NHibernate.Mapping.Attributes.dll</HintPath>
+    </Reference>
+    <Reference Include="PushSharp">
+      <HintPath>..\..\Shared Binaries\PushSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PushSharp.Android">
+      <HintPath>..\..\Shared Binaries\PushSharp.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="PushSharp.Apple">
+      <HintPath>..\..\Shared Binaries\PushSharp.Apple.dll</HintPath>
+    </Reference>
+    <Reference Include="PushSharp.Blackberry">
+      <HintPath>..\..\Shared Binaries\PushSharp.Blackberry.dll</HintPath>
+    </Reference>
+    <Reference Include="PushSharp.Client.MonoForAndroid">
+      <HintPath>..\..\Shared Binaries\PushSharp.Client.MonoForAndroid.dll</HintPath>
+    </Reference>
+    <Reference Include="PushSharp.Common">
+      <HintPath>..\..\Shared Binaries\PushSharp.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="PushSharp.Windows">
+      <HintPath>..\..\Shared Binaries\PushSharp.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="PushSharp.WindowsPhone">
+      <HintPath>..\..\Shared Binaries\PushSharp.WindowsPhone.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="Telerik.Web.UI">
+      <HintPath>..\..\Shared Binaries\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.UI.Skins">
+      <HintPath>..\..\Shared Binaries\Telerik.Web.UI.Skins.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Controls.ScheduleView, Version=2010.3.1110.35, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL" />
+    <Reference Include="vbCryptoLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Shared Binaries\vbCryptoLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Controls\ctrlNewCatalogo.ascx" />
+    <Content Include="Controls\ctrlOpcionCatalogo.ascx" />
+    <Content Include="DefaultWsdlHelpGenerator.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Images\alerta.png" />
+    <Content Include="Images\background.png" />
+    <Content Include="Images\back_disabled.png" />
+    <Content Include="Images\back_enabled.png" />
+    <Content Include="Images\back_enabled_hover.png" />
+    <Content Include="Images\collection.png" />
+    <Content Include="Images\collection_hover.png" />
+    <Content Include="Images\copy.png" />
+    <Content Include="Images\copy_hover.png" />
+    <Content Include="Images\csv.png" />
+    <Content Include="Images\csv_hover.png" />
+    <Content Include="Images\error.png" />
+    <Content Include="Images\exito.png" />
+    <Content Include="Images\favicon.ico" />
+    <Content Include="Images\forward_disabled.png" />
+    <Content Include="Images\forward_enabled.png" />
+    <Content Include="Images\forward_enabled_hover.png" />
+    <Content Include="Images\icoCSVLg.png" />
+    <Content Include="Images\icoCSVLgHover.png" />
+    <Content Include="Images\icono_copiar30x30.png" />
+    <Content Include="Images\icono_excel.jpg" />
+    <Content Include="Images\icoPDFLg.png" />
+    <Content Include="Images\icoPDFLgHover.png" />
+    <Content Include="Images\icoPRINTLg.png" />
+    <Content Include="Images\icoprintLgHover.png" />
+    <Content Include="Images\icoXLSLg.png" />
+    <Content Include="Images\icoXLSLgHover.png" />
+    <Content Include="Images\image-loading.gif" />
+    <Content Include="Images\info.png" />
+    <Content Include="Images\loadingAnim.gif" />
+    <Content Include="Images\mail_flag_kmail.png" />
+    <Content Include="Images\notnot.jpg" />
+    <Content Include="Images\notyet.jpg" />
+    <Content Include="Images\pdf.bmp" />
+    <Content Include="Images\pdf.png" />
+    <Content Include="Images\pdf_hover.png" />
+    <Content Include="Images\print.png" />
+    <Content Include="Images\print_hover.png" />
+    <Content Include="Images\question_button.png" />
+    <Content Include="Images\sort_asc.png" />
+    <Content Include="Images\sort_asc_disabled.png" />
+    <Content Include="Images\sort_both.png" />
+    <Content Include="Images\sort_desc.png" />
+    <Content Include="Images\sort_desc_disabled.png" />
+    <Content Include="Images\stop1.png" />
+    <Content Include="Images\xls.png" />
+    <Content Include="Images\xls_hover.png" />
+    <Content Include="Pages\frmArbolEncuesta.aspx" />
+    <Content Include="Pages\FrmProgramacionDispos.aspx" />
+    <Content Include="Pages\ReporteRespuestaPorEncuesta.aspx" />
+    <Content Include="Pages\ReporteTiempoRespuesta.aspx" />
+    <Content Include="Scripts\canvas.js" />
+    <Content Include="Scripts\fonts.js" />
+    <Content Include="Scripts\glyphlist.js" />
+    <Content Include="Scripts\Graphics\financial-data.js" />
+    <Content Include="Scripts\Graphics\RGraph.bar.js" />
+    <Content Include="Scripts\Graphics\RGraph.bipolar.js" />
+    <Content Include="Scripts\Graphics\RGraph.common.annotate.js" />
+    <Content Include="Scripts\Graphics\RGraph.common.context.js" />
+    <Content Include="Scripts\Graphics\RGraph.common.core.js" />
+    <Content Include="Scripts\Graphics\RGraph.common.dynamic.js" />
+    <Content Include="Scripts\Graphics\RGraph.common.effects.js" />
+    <Content Include="Scripts\Graphics\RGraph.common.key.js" />
+    <Content Include="Scripts\Graphics\RGraph.common.resizing.js" />
+    <Content Include="Scripts\Graphics\RGraph.common.tooltips.js" />
+    <Content Include="Scripts\Graphics\RGraph.common.zoom.js" />
+    <Content Include="Scripts\Graphics\RGraph.cornergauge.js" />
+    <Content Include="Scripts\Graphics\RGraph.fuel.js" />
+    <Content Include="Scripts\Graphics\RGraph.funnel.js" />
+    <Content Include="Scripts\Graphics\RGraph.gantt.js" />
+    <Content Include="Scripts\Graphics\RGraph.gauge.js" />
+    <Content Include="Scripts\Graphics\RGraph.hbar.js" />
+    <Content Include="Scripts\Graphics\RGraph.hprogress.js" />
+    <Content Include="Scripts\Graphics\RGraph.led.js" />
+    <Content Include="Scripts\Graphics\RGraph.line.js" />
+    <Content Include="Scripts\Graphics\RGraph.meter.js" />
+    <Content Include="Scripts\Graphics\RGraph.modaldialog.js" />
+    <Content Include="Scripts\Graphics\RGraph.odo.js" />
+    <Content Include="Scripts\Graphics\RGraph.pie.js" />
+    <Content Include="Scripts\Graphics\RGraph.radar.js" />
+    <Content Include="Scripts\Graphics\RGraph.rose.js" />
+    <Content Include="Scripts\Graphics\RGraph.rscatter.js" />
+    <Content Include="Scripts\Graphics\RGraph.scatter.js" />
+    <Content Include="Scripts\Graphics\RGraph.skeleton.js" />
+    <Content Include="Scripts\Graphics\RGraph.thermometer.js" />
+    <Content Include="Scripts\Graphics\RGraph.vprogress.js" />
+    <Content Include="Scripts\Graphics\RGraph.waterfall.js" />
+    <Content Include="Scripts\image.js" />
+    <Content Include="Scripts\jquery-1.3.2.min.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery.blockUI.js" />
+    <Content Include="Scripts\jquery.cookie.js" />
+    <Content Include="Scripts\jquery.dataTables.js" />
+    <Content Include="Scripts\jquery.hotkeys.js" />
+    <Content Include="Scripts\jquery.jstree.js" />
+    <Content Include="Scripts\jquery.metadata.js" />
+    <Content Include="Scripts\jquery.tools.mi.js" />
+    <Content Include="Scripts\jspdf.js" />
+    <Content Include="Scripts\jspdf.plugin.addimage.js" />
+    <Content Include="Scripts\jspdf.plugin.from_html.js" />
+    <Content Include="Scripts\libsPDF\canvas.js" />
+    <Content Include="Scripts\libsPDF\charsets.js" />
+    <Content Include="Scripts\libsPDF\cidmaps.js" />
+    <Content Include="Scripts\libsPDF\colorspace.js" />
+    <Content Include="Scripts\libsPDF\core.js" />
+    <Content Include="Scripts\libsPDF\crypto.js" />
+    <Content Include="Scripts\libsPDF\evaluator.js" />
+    <Content Include="Scripts\libsPDF\fonts.js" />
+    <Content Include="Scripts\libsPDF\function.js" />
+    <Content Include="Scripts\libsPDF\glyphlist.js" />
+    <Content Include="Scripts\libsPDF\image.js" />
+    <Content Include="Scripts\libsPDF\jpx.js" />
+    <Content Include="Scripts\libsPDF\metrics.js" />
+    <Content Include="Scripts\libsPDF\obj.js" />
+    <Content Include="Scripts\libsPDF\parser.js" />
+    <Content Include="Scripts\libsPDF\pattern.js" />
+    <Content Include="Scripts\libsPDF\pdf.js" />
+    <Content Include="Scripts\libsPDF\stream.js" />
+    <Content Include="Scripts\libsPDF\util.js" />
+    <Content Include="Scripts\libsPDF\utils\cffStandardStrings.js" />
+    <Content Include="Scripts\libsPDF\utils\fonts_utils.js" />
+    <Content Include="Scripts\libsPDF\worker.js" />
+    <Content Include="Scripts\libsPDF\worker_loader.js" />
+    <Content Include="Scripts\libs\base64.js" />
+    <Content Include="Scripts\libs\sprintf.js" />
+    <Content Include="Scripts\metrics.js" />
+    <Content Include="Scripts\pdf.js" />
+    <Content Include="Scripts\TableTools.js" />
+    <Content Include="Scripts\ZeroClipboard.js" />
+    <Content Include="Skins\loading.png" />
+    <Content Include="Skins\PanelBar.css" />
+    <Content Include="Skins\Windows7\PanelBar.Windows7.css" />
+    <Content Include="Skins\Windows7\PanelBar\Expandable.png" />
+    <Content Include="Skins\Windows7\PanelBar\RootItemBg.png" />
+    <Content Include="Skins\Windows7\PanelBar\SubItemStates.png" />
+    <Content Include="Skins\Windows7\PanelBar\Windows7.gif" />
+    <Content Include="Images\att.png" />
+    <Content Include="Images\Body.png" />
+    <Content Include="Images\BtnEntrar.png" />
+    <Content Include="Images\BtnEntrarLogin.png" />
+    <Content Include="Images\btnlimpiar.png" />
+    <Content Include="Images\btn_login.gif" />
+    <Content Include="Images\cargando.gif" />
+    <Content Include="Images\cerrar.png" />
+    <Content Include="Images\close.gif" />
+    <Content Include="Images\cross_icon_normal.png" />
+    <Content Include="Images\Cuadrologin1.png" />
+    <Content Include="Images\Cuadrologin2.png" />
+    <Content Include="Images\DegradadoLista.png" />
+    <Content Include="Images\DegradadoMenu.png" />
+    <Content Include="Images\DegradadoMenuHover.png" />
+    <Content Include="Images\DivisionMenu.png" />
+    <Content Include="Images\dropdown-bg-hover.gif" />
+    <Content Include="Images\dropdown-bg.gif" />
+    <Content Include="Images\dropdown-list-bg.gif" />
+    <Content Include="Images\Encuesta.png" />
+    <Content Include="Images\encuestaMovilLogo.png" />
+    <Content Include="Images\err.png" />
+    <Content Include="Images\fondo.png" />
+    <Content Include="Images\FondoEncuestas.png" />
+    <Content Include="Images\FondoEncuestas2.png" />
+    <Content Include="Images\FondoLogin1.png" />
+    <Content Include="Images\Header.png" />
+    <Content Include="Images\HeaderGrid.png" />
+    <Content Include="Images\iconoagregar.png" />
+    <Content Include="Images\IconoAsignar.png" />
+    <Content Include="Images\Iconocerrar.png" />
+    <Content Include="Images\IconoCorreo.png" />
+    <Content Include="Images\iconoeditar.png" />
+    <Content Include="Images\iconoeliminar.png" />
+    <Content Include="Images\iconograficar.png" />
+    <Content Include="Images\IconoPDF.png" />
+    <Content Include="Images\iconopublicar.png" />
+    <Content Include="Images\iconovistaorevia.png" />
+    <Content Include="Images\Ico_Cerrar.gif" />
+    <Content Include="Images\images.jpg" />
+    <Content Include="Images\inf.png" />
+    <Content Include="Images\loader.gif" />
+    <Content Include="Images\LogoEncuestas.PNG" />
+    <Content Include="Images\navigation-arrow.gif" />
+    <Content Include="Images\not.jpg" />
+    <Content Include="Images\no_foto.jpg" />
+    <Content Include="Images\nuevoHeader.png" />
+    <Content Include="Images\Respuesta.png" />
+    <Content Include="Images\separator.gif" />
+    <Content Include="Images\signobajar.png" />
+    <Content Include="Images\signomas.png" />
+    <Content Include="Images\SignoMenos.png" />
+    <Content Include="Images\signosubir.png" />
+    <Content Include="Images\suc.png" />
+    <Content Include="Images\titlebar_bg.jpg" />
+    <Content Include="Images\ToolTip\balloon_bottom.png" />
+    <Content Include="Images\ToolTip\balloon_bottomLeft.png" />
+    <Content Include="Images\ToolTip\balloon_bottomRight.png" />
+    <Content Include="Images\ToolTip\balloon_left.png" />
+    <Content Include="Images\ToolTip\balloon_right.png" />
+    <Content Include="Images\ToolTip\balloon_tail.png" />
+    <Content Include="Images\ToolTip\balloon_top.png" />
+    <Content Include="Images\ToolTip\balloon_topLeft.png" />
+    <Content Include="Images\ToolTip\balloon_topRight.png" />
+    <Content Include="Images\tvaztecalogo.jpg" />
+    <Content Include="Images\yes.JPG" />
+    <Content Include="js\aes-enc.js" />
+    <Content Include="js\AltaUsuario.js" />
+    <Content Include="js\Autocompletar.js" />
+    <Content Include="js\base64.js" />
+    <Content Include="js\Catalogos.js" />
+    <Content Include="js\DispoEncuesta.js" />
+    <Content Include="js\gears_init.js" />
+    <Content Include="js\jquery-1.3.1.js" />
+    <Content Include="js\jquery-1.5.1.js" />
+    <Content Include="js\jquery-ui-1.7.2.custom.css" />
+    <Content Include="js\jquery.fcbkcomplete.js" />
+    <Content Include="js\jquery.ui.core.js" />
+    <Content Include="js\jquery.ui.datepicker.js" />
+    <Content Include="js\jquery.ui.widget.js" />
+    <Content Include="js\Login.js" />
+    <Content Include="js\mouse.js" />
+    <Content Include="js\PGencode.js" />
+    <Content Include="js\PGpubkey.js" />
+    <Content Include="js\rsa.js" />
+    <Content Include="js\sha1.js" />
+    <Content Include="js\Usuarios.js" />
+    <Content Include="MessageBox.ascx" />
+    <Content Include="Pages\DispositivoInfo.aspx" />
+    <Content Include="Pages\ExportaPDF.aspx" />
+    <Content Include="Pages\frmCatalogos.aspx" />
+    <Content Include="Pages\frmDispoEncuesta.aspx" />
+    <Content Include="Pages\frmEncuestas.aspx" />
+    <Content Include="Pages\frmDispositivos.aspx" />
+    <Content Include="Pages\frmUsuarios.aspx" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Images\Sorting icons.psd" />
+    <None Include="Pages\helloworld.pdf" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="Pages\Grafica.aspx" />
+    <Content Include="Pages\InfoDispo.aspx" />
+    <Content Include="Pages\Principal.aspx" />
+    <Content Include="Pages\ReportePosicion.aspx" />
+    <Content Include="Pages\ReporteRuta.aspx" />
+    <Content Include="Pages\Reportes\ReporteHistorialPosicionDispositivo.aspx" />
+    <Content Include="Pages\Reportes\ReportePrueba.aspx" />
+    <Content Include="Pages\Reportes\ReporteUltimaPosicionDispositivo.aspx" />
+    <Content Include="Scripts\Mensaje.js" />
+    <Content Include="Styles\demos.css" />
+    <Content Include="Styles\jquery-ui.css" />
+    <Content Include="Styles\jquery.dataTables.css" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <None Include="Web References\LlaveMaestra\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\LlaveMaestra\Service.disco" />
+    <Content Include="Styles\TableTools.css" />
+    <Content Include="swf\copy_csv_xls.swf" />
+    <Content Include="swf\copy_csv_xls_pdf.swf" />
+    <Content Include="themes\apple\bg.jpg" />
+    <Content Include="themes\apple\d.png" />
+    <Content Include="themes\apple\dot_for_ie.gif" />
+    <Content Include="themes\apple\style.css" />
+    <Content Include="themes\apple\throbber.gif" />
+    <Content Include="themes\classic\d.gif" />
+    <Content Include="themes\classic\d.png" />
+    <Content Include="themes\classic\dot_for_ie.gif" />
+    <Content Include="themes\classic\style.css" />
+    <Content Include="themes\classic\throbber.gif" />
+    <Content Include="themes\default-rtl\d.gif" />
+    <Content Include="themes\default-rtl\d.png" />
+    <Content Include="themes\default-rtl\dots.gif" />
+    <Content Include="themes\default-rtl\style.css" />
+    <Content Include="themes\default-rtl\throbber.gif" />
+    <Content Include="themes\default\d.gif" />
+    <Content Include="themes\default\d.png" />
+    <Content Include="themes\default\style.css" />
+    <Content Include="themes\default\throbber.gif" />
+    <Content Include="themes\question_button.png" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <None Include="Web References\LlaveMaestra\Service.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clases\Error.cs" />
+    <Compile Include="Controls\ctrlNewCatalogo.ascx.cs">
+      <DependentUpon>ctrlNewCatalogo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ctrlNewCatalogo.ascx.designer.cs">
+      <DependentUpon>ctrlNewCatalogo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ctrlOpcionCatalogo.ascx.cs">
+      <DependentUpon>ctrlOpcionCatalogo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ctrlOpcionCatalogo.ascx.designer.cs">
+      <DependentUpon>ctrlOpcionCatalogo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DefaultWsdlHelpGenerator.aspx.cs">
+      <DependentUpon>DefaultWsdlHelpGenerator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DefaultWsdlHelpGenerator.aspx.designer.cs">
+      <DependentUpon>DefaultWsdlHelpGenerator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="MasterEncuesta.Master.cs">
+      <DependentUpon>MasterEncuesta.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterEncuesta.Master.designer.cs">
+      <DependentUpon>MasterEncuesta.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MessageBox.ascx.cs">
+      <DependentUpon>MessageBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MessageBox.ascx.designer.cs">
+      <DependentUpon>MessageBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\DispositivoInfo.aspx.cs">
+      <DependentUpon>DispositivoInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\DispositivoInfo.aspx.designer.cs">
+      <DependentUpon>DispositivoInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ExportaPDF.aspx.cs">
+      <DependentUpon>ExportaPDF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ExportaPDF.aspx.designer.cs">
+      <DependentUpon>ExportaPDF.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmArbolEncuesta.aspx.cs">
+      <DependentUpon>frmArbolEncuesta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmArbolEncuesta.aspx.designer.cs">
+      <DependentUpon>frmArbolEncuesta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmCatalogos.aspx.cs">
+      <DependentUpon>frmCatalogos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmCatalogos.aspx.designer.cs">
+      <DependentUpon>frmCatalogos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmDispoEncuesta.aspx.cs">
+      <DependentUpon>frmDispoEncuesta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmDispoEncuesta.aspx.designer.cs">
+      <DependentUpon>frmDispoEncuesta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmEncuestas.aspx.cs">
+      <DependentUpon>frmEncuestas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmEncuestas.aspx.designer.cs">
+      <DependentUpon>frmEncuestas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmDispositivos.aspx.cs">
+      <DependentUpon>frmDispositivos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmDispositivos.aspx.designer.cs">
+      <DependentUpon>frmDispositivos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\FrmProgramacionDispos.aspx.cs">
+      <DependentUpon>FrmProgramacionDispos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\FrmProgramacionDispos.aspx.designer.cs">
+      <DependentUpon>FrmProgramacionDispos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmUsuarios.aspx.cs">
+      <DependentUpon>frmUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\frmUsuarios.aspx.designer.cs">
+      <DependentUpon>frmUsuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Grafica.aspx.cs">
+      <DependentUpon>Grafica.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Grafica.aspx.designer.cs">
+      <DependentUpon>Grafica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\InfoDispo.aspx.cs">
+      <DependentUpon>InfoDispo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\InfoDispo.aspx.designer.cs">
+      <DependentUpon>InfoDispo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Principal.aspx.cs">
+      <DependentUpon>Principal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Principal.aspx.designer.cs">
+      <DependentUpon>Principal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ReportePosicion.aspx.cs">
+      <DependentUpon>ReportePosicion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ReportePosicion.aspx.designer.cs">
+      <DependentUpon>ReportePosicion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ReporteRespuestaPorEncuesta.aspx.cs">
+      <DependentUpon>ReporteRespuestaPorEncuesta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ReporteRespuestaPorEncuesta.aspx.designer.cs">
+      <DependentUpon>ReporteRespuestaPorEncuesta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ReporteRuta.aspx.cs">
+      <DependentUpon>ReporteRuta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ReporteRuta.aspx.designer.cs">
+      <DependentUpon>ReporteRuta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Reportes\ReporteHistorialPosicionDispositivo.aspx.cs">
+      <DependentUpon>ReporteHistorialPosicionDispositivo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Reportes\ReporteHistorialPosicionDispositivo.aspx.designer.cs">
+      <DependentUpon>ReporteHistorialPosicionDispositivo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Reportes\ReportePrueba.aspx.cs">
+      <DependentUpon>ReportePrueba.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Reportes\ReportePrueba.aspx.designer.cs">
+      <DependentUpon>ReportePrueba.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Reportes\ReporteUltimaPosicionDispositivo.aspx.cs">
+      <DependentUpon>ReporteUltimaPosicionDispositivo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Reportes\ReporteUltimaPosicionDispositivo.aspx.designer.cs">
+      <DependentUpon>ReporteUltimaPosicionDispositivo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ReporteTiempoRespuesta.aspx.cs">
+      <DependentUpon>ReporteTiempoRespuesta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ReporteTiempoRespuesta.aspx.designer.cs">
+      <DependentUpon>ReporteTiempoRespuesta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Utilerias.cs" />
+    <Compile Include="Web References\LlaveMaestra\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="temporal\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL_EncuestasMoviles\BLL_EncuestasMoviles.csproj">
+      <Project>{9C4A4290-8B0D-4369-B99E-3A5B7A5A9073}</Project>
+      <Name>BLL_EncuestasMoviles</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entidades_EncuestasMoviles\Entidades_EncuestasMoviles.csproj">
+      <Project>{62A7A5C9-D417-4781-B92D-B0E8B80B8183}</Project>
+      <Name>Entidades_EncuestasMoviles</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterEncuesta.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://tvawebmam101/WsAppLogin/Service.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\LlaveMaestra\</RelPath>
+      <UpdateFromURL>http://tvawebmam101/WsAppLogin/Service.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>EncuestasMoviles_LlaveMaestra_Service</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>22222</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/EncuestasMoviles</IISUrl>
+          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
+          <IISAppRootUrl>http://localhost/EncuestasMoviles</IISAppRootUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

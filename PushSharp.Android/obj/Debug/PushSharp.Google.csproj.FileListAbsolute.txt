@@ -1,0 +1,8 @@
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\PushSharp.Android\bin\Debug\PushSharp.Android.dll
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\PushSharp.Android\bin\Debug\PushSharp.Android.pdb
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\PushSharp.Android\bin\Debug\Newtonsoft.Json.dll
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\PushSharp.Android\bin\Debug\PushSharp.Common.dll
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\PushSharp.Android\bin\Debug\PushSharp.Common.pdb
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\PushSharp.Android\obj\Debug\ResolveAssemblyReference.cache
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\PushSharp.Android\obj\Debug\PushSharp.Android.dll
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\PushSharp.Android\obj\Debug\PushSharp.Android.pdb

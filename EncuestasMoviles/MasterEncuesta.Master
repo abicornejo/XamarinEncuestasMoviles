@@ -1,0 +1,198 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterEncuesta.master.cs" Inherits="EncuestasMoviles.MasterEncuesta" %>
+<%@ Register TagName="messageBox" TagPrefix="mesBx" Src="~/MessageBox.ascx" %>
+<%--<%@ Register TagPrefix="telerik" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI" %>--%>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta http-equiv="X-UA-Compatible" content="IE=8"/>
+<head runat="server">
+    <title>Encuestas Móviles</title>
+    <link rel="stylesheet" type="text/css" href="Styles/Site.css" />    
+    <style type="text/css">
+         .autocomplete_completionListElement 
+        {  
+	        margin : 0px!important;
+	        background-color : inherit;
+	        color : windowtext;
+	        border : buttonshadow;
+	        border-width : 1px;
+	        border-style : solid;
+	        cursor : 'default';
+	        overflow : auto;
+	        height : auto;
+            text-align : left; 
+            list-style-type :  none;
+            padding-left:1px;
+        }
+        
+        .textoRespuestas
+        {
+	        font-family:Arial;
+	        font-size:12px;
+	        font-weight:bold;            
+        }
+
+        /* AutoComplete highlighted item */
+        .autocomplete_highlightedListItem
+        {
+	        background-color:Aqua;/*#aaff90*/
+	        color: black;
+	        padding: 1px;
+	        cursor:hand;
+        }
+
+        /* AutoComplete item */
+        .autocomplete_listItem 
+        {
+	        background-color : window;
+	        color : windowtext;
+	        padding:1px;
+        }
+        
+        
+        /*autocomplete 2*/
+        
+         .AutoExtender
+        {
+            font-family: Verdana, Helvetica, sans-serif;
+            font-size: .8em;
+            font-weight: normal;
+            border: solid 1px #006699;
+            line-height: 20px;
+            padding: 10px;
+            background-color: White;
+            margin-left:10px;
+        }
+        .AutoExtenderList
+        {
+            border-bottom: dotted 1px #006699;
+            cursor: pointer;
+            color: Maroon;
+        }
+        .AutoExtenderHighlight
+        {
+            color: White;
+            background-color: #006699;
+            cursor: pointer;
+        }
+        #divwidth
+        {
+          width: 150px !important;    
+        }
+        #divwidth div
+       {
+        width: 150px !important;   
+       }
+        /*temina automplete 2*/
+    </style>
+<asp:ContentPlaceHolder id="head" runat="server">        
+    </asp:ContentPlaceHolder>
+    <script language="javascript" type="text/javascript">
+        function Cerrar() {
+           
+            //alert('Esta a punto de cerrar el navegador');
+        }
+
+       
+    </script>
+</head>
+<body>
+    <form id="Form2" runat="server">
+   <%-- <telerik:RadScriptManager ID="ScriptManager1" runat="server" EnableScriptGlobalization="true" EnablePartialRendering="false" />--%>
+     <asp:ScriptManager ID="ScriptManager1" runat="server" EnableScriptGlobalization="true" EnablePartialRendering="false"/>
+      <mesBx:messageBox runat="server" ID="ctrlMessageBox" OnAcepta_Evento="Acepta_Evento" />
+      <script type="text/javascript" language="javascript">
+
+         
+          function validaCaracteres(e) {
+              tecla = (document.all) ? e.keyCode : e.which;
+              if (tecla == 8) return true;
+              patron = /[0-9A-Za-zñÑáÁéÉíÍóÓúÚ¿?\s]/;
+              te = String.fromCharCode(tecla);
+              return patron.test(te);
+          }
+          function validaLetras(e) {
+              tecla = (document.all) ? e.keyCode : e.which;
+              if (tecla == 8) return true;
+              patron = /[A-Za-zñÑáÁéÉíÍóÓúÚ\s]/;
+              te = String.fromCharCode(tecla);
+              return patron.test(te);
+          }
+          function validaCaracteresNoEncuestas(e) {
+              tecla = (document.all) ? e.keyCode : e.which;
+              if (tecla == 8) return true;
+              patron = /[0-9A-Za-zñÑáÁéÉíÍóÓúÚ\s]/;
+              te = String.fromCharCode(tecla);
+              return patron.test(te);
+          }
+          function ValidaNumeros() {
+              var key = window.event.keyCode;
+              if (key < 48 || key > 57) {
+                  window.event.keyCode = 0;
+              }
+          }
+          function hide(o) {
+              document.getElementById(o).style.display = "none";
+          }
+          function showMessage_Error(msg) {
+              var o = document.getElementById('divMessage');
+              o.style.display = "block";
+              o.innerHTML = "<table><tr><td><img src='Images/exclamation.png' alt='Error'/></td><td style='font-size: medium; color: red'><strong>" + msg + "</strong></td></tr></table>";
+              window.setTimeout("hide('divMessage');", 5000);
+          }
+          function showMessage_Ok(msg) {
+              var o = document.getElementById('divMessage');
+              o.style.display = "block";
+              o.innerHTML = "<table><tr><td><img src='Images/Ok.png' alt='Exito'/></td><td style='font-size: medium; color: green'><strong>" + msg + "</strong></td></tr></table>";
+              window.setTimeout("hide('divMessage');", 5000);
+          }
+          function showMessage_Info(msg) {
+              var o = document.getElementById('divMessage');
+              o.style.display = "block";
+              o.innerHTML = "<table><tr><td><img src='Images/Warning1.png' alt='Message'/></td><td style='font-size: medium; color: blue'><strong>" + msg + "</strong></td></tr></table>";
+              window.setTimeout("hide('divMessage');", 5000);
+          }
+
+
+          window.history.forward(1);
+          //document.attachEvent("onkeydown", my_onkeydown_handler);
+          //$(document).onkeydown(my_onkeydown_handler);
+//          document.bind("onkeydown", my_onkeydown_handler);
+//          function my_onkeydown_handler() {
+//              switch (event.keyCode) {
+//                  case 116: // F5;
+//                      event.returnValue = false;
+//                      event.keyCode = 0;
+//                      window.status = "We have disabled F5";
+//                      break;
+//              }
+//          }
+</script>              
+    <table class="divHeader">
+        <tr>
+            <td align="right" valign="top" class="textoLogin">
+                <font color="white">Bienvenido(a) <%=Session["nombreUsuario"]%> |
+               <b> <asp:LinkButton   ID="LinkButton1" Text="Cerrar Sesion" OnClick="lblClick" runat="server" CausesValidation="false" CssClass="estilolink" />  </b>               
+                </font>
+            </td>
+        </tr>
+    </table>    
+    <div class="divBodyBlanco">
+        <table width="100%" class="divMenuContenerdor" cellpadding="0" cellspacing="0">
+            <tr>
+                <td>
+                    <asp:Menu ID="MenuPrincipal" CssClass="nav-main" runat="server" EnableViewState="true" IncludeStyleBlock="true" Orientation="Horizontal">
+                        <DynamicMenuItemStyle CssClass="nav-main" />
+                        <DynamicMenuStyle CssClass="nav-sub"/>
+                    </asp:Menu>
+                </td>
+            </tr>
+        </table>    	
+        <div>
+        <asp:ContentPlaceHolder ID="Body" runat="server">
+        </asp:ContentPlaceHolder>
+        </div>
+        </div>
+    </form>    
+</body>
+</html>

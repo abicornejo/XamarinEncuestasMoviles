@@ -1,0 +1,5 @@
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\PushSharp.Common\bin\Debug\PushSharp.Common.dll
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\PushSharp.Common\bin\Debug\PushSharp.Common.pdb
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\PushSharp.Common\obj\Debug\ResolveAssemblyReference.cache
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\PushSharp.Common\obj\Debug\PushSharp.Common.dll
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\PushSharp.Common\obj\Debug\PushSharp.Common.pdb

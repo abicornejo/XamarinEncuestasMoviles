@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Entidades_EncuestasMoviles" assembly="Entidades_EncuestasMoviles">
+  <class name="THE_ProgXFecha" table="SEML_THE_PROGXFECHA">
+    <id name="IdProgXFecha" column="ID_PROGXFECHA">
+      <generator class="sequence">
+        <param name="sequence">SEQ_SEML_THE_PROGXFECHA</param>
+      </generator>
+    </id>
+
+    <many-to-one name="IdProgramacion" class="THE_Programacion" column="ID_PROGRAMACION" lazy="false"/>    
+
+    <property name="Fecha" column="FECHA"/>
+    <property name="Hora" column="HORA"/>
+    <property name="Estatus" column="ESTATUS"/>
+
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Entidades_EncuestasMoviles" assembly="Entidades_EncuestasMoviles">
+  <class name="TDI_CPCol" table="SEML_TDI_CPCOL">
+    <composite-id>
+      <key-many-to-one name="IdCodigoPostal" class="THE_CodigoPostal" column="ID_CODIGOPOSTAL" />
+      <key-many-to-one name="IdColonia" class="TDI_Colonias" column="ID_COLONIA" />
+    </composite-id>
+  </class>
+</hibernate-mapping>

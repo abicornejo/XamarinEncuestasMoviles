@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Entidades_EncuestasMoviles" assembly="Entidades_EncuestasMoviles">
+  <class name="TDI_TieneRespAleatorias" table="SEML_TDI_ES_PRE_ALEA">
+    <id name="IdPreAleatoria" column="ID_PRE_ALEATORIA">
+      <generator class="native"/>
+    </id>
+    <property name="DescTieneRespAlea" column="DESC_PRE_ALEATORIA"/>
+    <property name="StatusTieneRespAlea" column="STATUS_PRE_ALEATORIA"/>
+  </class>
+</hibernate-mapping>

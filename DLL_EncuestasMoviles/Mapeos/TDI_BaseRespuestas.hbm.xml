@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Entidades_EncuestasMoviles" assembly="Entidades_EncuestasMoviles">
+  <class name="TDI_BaseRespuestas" table="SEML_TDI_BASERESPUESTAS">
+    <id name="IdRespuesta" column="ID_BASERESPUESTAS">
+      <generator class="sequence">
+        <param name="sequence">SEQ_SEML_TDI_BASERESPUESTAS</param>
+      </generator>
+    </id>
+    <property name="RespuestasDesc" column="BASERESPUESTAS_DESC"/>
+    <property name="Estatus" column="BASERESPUESTAS_STAT"/>
+  </class>
+</hibernate-mapping>

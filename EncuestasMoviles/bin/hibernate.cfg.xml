@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+  <hibernate-configuration xmlns="urn:nhibernate-configuration-2.2">
+    <session-factory>
+    </session-factory>
+  </hibernate-configuration>

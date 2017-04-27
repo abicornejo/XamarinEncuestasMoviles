@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Entidades_EncuestasMoviles" assembly="Entidades_EncuestasMoviles">
+  <class name="THE_LogError" table="SEML_THE_LOGERROR">
+    <id name="CveLogErrores" column="LGER_LLAV_PR">
+      <generator class="sequence">
+        <param name="sequence">SEQ_SEML_THE_LOGERROR</param>
+      </generator>
+    </id>
+
+    <many-to-one class="THE_Empleado" name="EmplLlavPr" column="EMPL_LLAV_PR" lazy="false" />
+    
+    <property name="EmplUsua" column="EMPL_USUA"/>
+    <property name="FechaCreacion" column="LGER_FECR"/>
+    <property name="Error" column="LGER_ERRO"/>
+    <property name="Pantalla" column="LGER_PANT"/>
+    <property name="DirIP" column="LGER_USIP"/>
+    <property name="MachineName" column="LGER_MACH"/>
+    <property name="Dominio" column="LGER_DOMI"/>
+
+  </class>
+</hibernate-mapping>

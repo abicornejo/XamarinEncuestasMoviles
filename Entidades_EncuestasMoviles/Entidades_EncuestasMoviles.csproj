@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{62A7A5C9-D417-4781-B92D-B0E8B80B8183}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Entidades_EncuestasMoviles</RootNamespace>
+    <AssemblyName>Entidades_EncuestasMoviles</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IntentosUsuario.cs" />
+    <Compile Include="TDI_BaseRespuestas.cs" />
+    <Compile Include="TDI_Categoria.cs" />
+    <Compile Include="TDI_Ciudad.cs" />
+    <Compile Include="TDI_Colonias.cs" />
+    <Compile Include="TDI_CPCol.cs" />
+    <Compile Include="TDI_DispoApVersion.cs" />
+    <Compile Include="TDI_EmpleadoRol.cs" />
+    <Compile Include="TDI_EncEncrypt.cs" />
+    <Compile Include="TDI_EncuestaDispositivo.cs" />
+    <Compile Include="TDI_EncuestaLog.cs" />
+    <Compile Include="TDI_Estado.cs" />
+    <Compile Include="TDI_EstatusMensaje.cs" />
+    <Compile Include="TDI_GraficasEncuesta.cs" />
+    <Compile Include="TDI_LogAcceso.cs" />
+    <Compile Include="TDI_LogPaginas.cs" />
+    <Compile Include="TDI_Mensaje.cs" />
+    <Compile Include="TDI_MensajeLog.cs" />
+    <Compile Include="TDI_Menu.cs" />
+    <Compile Include="TDI_Municipios.cs" />
+    <Compile Include="TDI_Notificaciones.cs" />
+    <Compile Include="TDI_OpcionCat.cs" />
+    <Compile Include="TDI_PreguntasRespuestas.cs" />
+    <Compile Include="TDI_Presentacion.cs" />
+    <Compile Include="TDI_Rol.cs" />
+    <Compile Include="TDI_TieneRespAleatorias.cs" />
+    <Compile Include="TDI_TipoAcceso.cs" />
+    <Compile Include="TDI_TipoBloqueo.cs" />
+    <Compile Include="TDI_TipoEncuesta.cs" />
+    <Compile Include="TDI_TipoProgramacion.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TDI_Transacc.cs" />
+    <Compile Include="TDI_UbicacionDispositivo.cs" />
+    <Compile Include="TDI_UsuarioCat.cs" />
+    <Compile Include="TDI_UsuarioDispositivo.cs" />
+    <Compile Include="TDI_UsuarioLogin.cs" />
+    <Compile Include="THE_ArbolEncuesta.cs" />
+    <Compile Include="THE_BloqueoIP.cs" />
+    <Compile Include="THE_BloqueoUsuario.cs" />
+    <Compile Include="THE_Catalogo.cs" />
+    <Compile Include="THE_CodigoPostal.cs" />
+    <Compile Include="THE_Dispositivo.cs" />
+    <Compile Include="THE_EncuestaEstatus.cs" />
+    <Compile Include="THE_LogError.cs" />
+    <Compile Include="THE_LogRespSelected.cs" />
+    <Compile Include="THE_LogTran.cs" />
+    <Compile Include="THE_PeriodoEncuesta.cs" />
+    <Compile Include="THE_Porcentaje_Bateria.cs" />
+    <Compile Include="THE_Preguntas.cs" />
+    <Compile Include="THE_Empleado.cs" />
+    <Compile Include="THE_Encuesta.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TDI_Estatus.cs" />
+    <Compile Include="THE_PrograDispositivo.cs" />
+    <Compile Include="THE_Programacion.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="THE_ProgXFecha.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="THE_ProgXSemana.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="THE_PUSTRAN.cs" />
+    <Compile Include="THE_Respuestas.cs" />
+    <Compile Include="THE_SesionUsuario.cs" />
+    <Compile Include="THE_TipoAsenta.cs" />
+    <Compile Include="THE_TipoZona.cs" />
+    <Compile Include="THE_Tipo_Respuestas.cs" />
+    <Compile Include="THE_Usuario.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

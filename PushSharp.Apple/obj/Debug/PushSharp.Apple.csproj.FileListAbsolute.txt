@@ -1,0 +1,8 @@
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\PushSharp.Apple\bin\Debug\PushSharp.Apple.dll
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\PushSharp.Apple\bin\Debug\PushSharp.Apple.pdb
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\PushSharp.Apple\bin\Debug\Newtonsoft.Json.dll
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\PushSharp.Apple\bin\Debug\PushSharp.Common.dll
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\PushSharp.Apple\bin\Debug\PushSharp.Common.pdb
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\PushSharp.Apple\obj\Debug\ResolveAssemblyReference.cache
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\PushSharp.Apple\obj\Debug\PushSharp.Apple.dll
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\PushSharp.Apple\obj\Debug\PushSharp.Apple.pdb

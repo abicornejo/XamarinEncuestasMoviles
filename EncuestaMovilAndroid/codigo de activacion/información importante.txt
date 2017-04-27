@@ -1,0 +1,11 @@
+El archivo de la licencia de Android se debe de copiar el la ruta:
+C:\ProgramData\Mono for Android\License\
+
+Nota: La licencia es para la maquina con placa de Tv. Azteca 113995
+
+Este archivo (licencia) se solicito a la gente de soporte de xamarin (support@xamarin.com) siguiendo los pasos que se encuentran en la siguiente liga:
+http://docs.xamarin.com/android/getting_started/installation/offline_activation
+
+
+
+

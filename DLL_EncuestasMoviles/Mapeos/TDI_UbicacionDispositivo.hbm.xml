@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Entidades_EncuestasMoviles" assembly="Entidades_EncuestasMoviles">
+  <class name="TDI_UbicacionDispositivo" table="SEML_TDI_DISPOUBICACION">
+    <id name="IdDispoUbicacion" column="ID_DISPOUBICACION">
+      <generator class="sequence">
+        <param name="sequence">SEQ_SEML_TDI_DISPOUBICACION</param>
+      </generator>
+    </id>
+    <many-to-one name="IdDispositivo" class="THE_Dispositivo" column="ID_DISPOSITIVO" lazy="false"/>
+
+    <property name="Longitud" column="DISPOUBICACION_LONGITUD"/>
+    <property name="Latitud" column="DISPOUBICACION_LATITUD"/>
+    <property name="DispoUbicacionCercaDe" column="DISPOUBICACION_CERCADE"/>
+    <!--<property name="fecha" column="DISPOUBICACION_FECHA"/>-->
+   
+    
+  </class>
+</hibernate-mapping>

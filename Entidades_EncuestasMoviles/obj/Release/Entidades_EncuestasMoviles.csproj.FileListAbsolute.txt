@@ -1,0 +1,5 @@
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\Entidades_EncuestasMoviles\bin\Release\Entidades_EncuestasMoviles.dll
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\Entidades_EncuestasMoviles\bin\Release\Entidades_EncuestasMoviles.pdb
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\Entidades_EncuestasMoviles\obj\Release\ResolveAssemblyReference.cache
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\Entidades_EncuestasMoviles\obj\Release\Entidades_EncuestasMoviles.dll
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\Entidades_EncuestasMoviles\obj\Release\Entidades_EncuestasMoviles.pdb

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Entidades_EncuestasMoviles" assembly="Entidades_EncuestasMoviles">
+  <class name="TDI_EncuestaDispositivo" table="SEML_TDI_ENCUESTADISPOSITIVO">
+
+    <!--<composite-id>
+      <key-many-to-one name="IdDispositivo" class="THE_Dispositivo" column="ID_DISPOSITIVO" />
+      <key-many-to-one name="IdEncuesta" class="THE_Encuesta" column="ID_ENCUESTA" />      
+    </composite-id>-->
+
+    <id name="IdEnvio" column="ID_ENVIO">
+      <generator class="sequence">
+        <param name="sequence">SEQ_SEML_TDI_ENCDISPO</param>
+      </generator>
+    </id>
+    <many-to-one name="IdDispositivo" class="THE_Dispositivo" column="ID_DISPOSITIVO" lazy="false"/>
+    <many-to-one name="IdEncuesta" class="THE_Encuesta" column="ID_ENCUESTA" lazy="false"/>
+    <many-to-one name="IdEstatus" class="TDI_Estatus" column="ID_ESTATUS" lazy="false"/>
+
+  </class>
+</hibernate-mapping>

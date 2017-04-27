@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Entidades_EncuestasMoviles" assembly="Entidades_EncuestasMoviles">
+  <class name="TDI_Rol" table="SEML_TDI_ROL">
+    <id name="IdRol" column="ID_ROL">
+      <generator class="native"/>
+    </id>
+
+    <property name="RolDescripcion" column="ROL_DESCRIPCION"/>
+    <property name="RolEstatus" column="ROL_ESTATUS"/>
+
+  </class>
+</hibernate-mapping>

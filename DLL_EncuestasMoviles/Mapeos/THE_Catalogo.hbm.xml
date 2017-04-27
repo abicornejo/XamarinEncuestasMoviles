@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Entidades_EncuestasMoviles" assembly="Entidades_EncuestasMoviles">
+  <class name="THE_Catalogo" table="SEML_THE_CATALOGO">
+    <id name="IdCatalogo" column="ID_CATALOGO">
+      <generator class="sequence">
+        <param name="sequence">SEQ_SEML_THE_CATALOGO</param>
+      </generator>
+    </id>
+
+    <property name="CatalogoDesc" column="CATALOGO_DESC"/>
+    <property name="CatalogoStat" column="CATALOGO_STAT"/>
+
+  </class>
+</hibernate-mapping>

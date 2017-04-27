@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ApplicationName">AZTECA_MOVIL</string>
+  <string name="app_name">Encuestas Azteca Movil</string>
+  <string name="local_service_started">Servicio local iniciado</string>
+  <string name="local_service_label">Servicio de prueba</string>
+</resources>

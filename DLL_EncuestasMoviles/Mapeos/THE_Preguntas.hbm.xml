@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Entidades_EncuestasMoviles" assembly="Entidades_EncuestasMoviles">
+  <class name="THE_Preguntas" table="SEML_THE_PREGUNTAS">
+    <id name="IdPregunta" column="ID_PREGUNTA">
+      <generator class="sequence">
+        <param name="sequence">SEQ_SEML_THE_PREGUNTAS</param>
+      </generator>
+    </id>
+
+    <many-to-one name="IdEncuesta" class="THE_Encuesta" column="ID_ENCUESTA" lazy="false"/>
+    <many-to-one name="IdTipoResp" class="THE_Tipo_Respuestas" column="ID_TIPO_RESP" lazy="false"/> 
+    <many-to-one name="IdPreAleatoria" class="TDI_TieneRespAleatorias" column="ID_PRE_ALEATORIA" lazy="false"  />
+    
+    <property name="PreguntaDesc" column="PREGUNTA_DESC"/>
+    <property name="Estatus" column="PREG_ESTATUS"/>
+
+  </class>
+</hibernate-mapping>

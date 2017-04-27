@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s1="http://microsoft.com/wsdl/types/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:import namespace="http://microsoft.com/wsdl/types/" />
+      <s:element name="ObtenerDispositivoNumero">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="NumeroTelefono" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerDispositivoNumeroResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ObtenerDispositivoNumeroResult" type="tns:ArrayOfTHE_Dispositivo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfTHE_Dispositivo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="THE_Dispositivo" nillable="true" type="tns:THE_Dispositivo" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="THE_Dispositivo">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="IdDispositivo" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumerodelTelefono" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Modelo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Marca" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ImagenTelefono" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DispositivoDesc" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DispositivoMeid" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DispositivoMdn" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="DispositivoEstatus" type="s1:char" />
+          <s:element minOccurs="0" maxOccurs="1" name="ColorEstatus" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EstatusCheck" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ChkEnabled" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="StrColor" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="AuthHeader" type="tns:AuthHeader" />
+      <s:complexType name="AuthHeader">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+        </s:sequence>
+        <s:anyAttribute />
+      </s:complexType>
+      <s:element name="ObtieneEncuestaPorDispositivo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="IdDispositivo" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="NumeroTel" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtieneEncuestaPorDispositivoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ObtieneEncuestaPorDispositivoResult" type="tns:ArrayOfTDI_EncuestaDispositivo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfTDI_EncuestaDispositivo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TDI_EncuestaDispositivo" nillable="true" type="tns:TDI_EncuestaDispositivo" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TDI_EncuestaDispositivo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="IdDispositivo" type="tns:THE_Dispositivo" />
+          <s:element minOccurs="0" maxOccurs="1" name="IdEncuesta" type="tns:THE_Encuesta" />
+          <s:element minOccurs="0" maxOccurs="1" name="ListaEncuesta" type="tns:ArrayOfTHE_Encuesta" />
+          <s:element minOccurs="0" maxOccurs="1" name="IdEstatus" type="tns:TDI_Estatus" />
+          <s:element minOccurs="0" maxOccurs="1" name="ListPreg" type="tns:ArrayOfTHE_Preguntas" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="THE_Encuesta">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="IdEncuesta" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="NombreEncuesta" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaCreaEncuesta" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="FechaLimiteEncuesta" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EmpleadoLlavePrimaria" type="tns:THE_Empleado" />
+          <s:element minOccurs="0" maxOccurs="1" name="IdEstatus" type="tns:TDI_Estatus" />
+          <s:element minOccurs="0" maxOccurs="1" name="LstPreg" type="tns:ArrayOfTHE_Preguntas" />
+          <s:element minOccurs="1" maxOccurs="1" name="EncuestaStat" type="s1:char" />
+          <s:element minOccurs="0" maxOccurs="1" name="NombreEstatus" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="THE_Empleado">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="EmpleadoLlavePrimaria" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="EmpleadoNombre" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EmpleadoApellPaterno" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EmpleadoApellMaterno" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EmpleadoUsua" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="EmpleadoEstatus" type="s1:char" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TDI_Estatus">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="IdEstatus" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="EstatusDescripcion" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="EstatusDispositivo" type="s1:char" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfTHE_Preguntas">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="THE_Preguntas" nillable="true" type="tns:THE_Preguntas" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="THE_Preguntas">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="IdPregunta" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="PreguntaDesc" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="IdEncuesta" type="tns:THE_Encuesta" />
+          <s:element minOccurs="0" maxOccurs="1" name="ListaPreguntas" type="tns:ArrayOfTHE_Preguntas" />
+          <s:element minOccurs="0" maxOccurs="1" name="ListaRespuestas" type="tns:ArrayOfTHE_Respuestas" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaCrea" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="Estatus" type="s1:char" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfTHE_Respuestas">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="THE_Respuestas" nillable="true" type="tns:THE_Respuestas" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="THE_Respuestas">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="IdRespuesta" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="IdPregunta" type="tns:THE_Preguntas" />
+          <s:element minOccurs="0" maxOccurs="1" name="RespuestaDescripcion" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="IdSiguientePregunta" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="RespuestaEstatus" type="s1:char" />
+          <s:element minOccurs="0" maxOccurs="1" name="DescSigPreg" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfTHE_Encuesta">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="THE_Encuesta" nillable="true" type="tns:THE_Encuesta" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GuardaCoordenadasDispositivo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="numeroTelDispositivo" type="s:double" />
+            <s:element minOccurs="0" maxOccurs="1" name="latitud" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="longitud" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CercaDe" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GuardaCoordenadasDispositivoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GuardaCoordenadasDispositivoResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NotificacionEncuestapendiente">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="IdDispositivo" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="NumeroTel" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NotificacionEncuestapendienteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="NotificacionEncuestapendienteResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GuardaEncuestaContestada">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="IdDispositivo" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="IdEncuesta" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="PreguntaRespuesta" type="tns:ArrayOfString" />
+            <s:element minOccurs="1" maxOccurs="1" name="NumeroTel" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GuardaEncuestaContestadaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GuardaEncuestaContestadaResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://microsoft.com/wsdl/types/">
+      <s:simpleType name="char">
+        <s:restriction base="s:unsignedShort" />
+      </s:simpleType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ObtenerDispositivoNumeroSoapIn">
+    <wsdl:part name="parameters" element="tns:ObtenerDispositivoNumero" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerDispositivoNumeroSoapOut">
+    <wsdl:part name="parameters" element="tns:ObtenerDispositivoNumeroResponse" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerDispositivoNumeroAuthHeader">
+    <wsdl:part name="AuthHeader" element="tns:AuthHeader" />
+  </wsdl:message>
+  <wsdl:message name="ObtieneEncuestaPorDispositivoSoapIn">
+    <wsdl:part name="parameters" element="tns:ObtieneEncuestaPorDispositivo" />
+  </wsdl:message>
+  <wsdl:message name="ObtieneEncuestaPorDispositivoSoapOut">
+    <wsdl:part name="parameters" element="tns:ObtieneEncuestaPorDispositivoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ObtieneEncuestaPorDispositivoAuthHeader">
+    <wsdl:part name="AuthHeader" element="tns:AuthHeader" />
+  </wsdl:message>
+  <wsdl:message name="GuardaCoordenadasDispositivoSoapIn">
+    <wsdl:part name="parameters" element="tns:GuardaCoordenadasDispositivo" />
+  </wsdl:message>
+  <wsdl:message name="GuardaCoordenadasDispositivoSoapOut">
+    <wsdl:part name="parameters" element="tns:GuardaCoordenadasDispositivoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GuardaCoordenadasDispositivoAuthHeader">
+    <wsdl:part name="AuthHeader" element="tns:AuthHeader" />
+  </wsdl:message>
+  <wsdl:message name="NotificacionEncuestapendienteSoapIn">
+    <wsdl:part name="parameters" element="tns:NotificacionEncuestapendiente" />
+  </wsdl:message>
+  <wsdl:message name="NotificacionEncuestapendienteSoapOut">
+    <wsdl:part name="parameters" element="tns:NotificacionEncuestapendienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="NotificacionEncuestapendienteAuthHeader">
+    <wsdl:part name="AuthHeader" element="tns:AuthHeader" />
+  </wsdl:message>
+  <wsdl:message name="GuardaEncuestaContestadaSoapIn">
+    <wsdl:part name="parameters" element="tns:GuardaEncuestaContestada" />
+  </wsdl:message>
+  <wsdl:message name="GuardaEncuestaContestadaSoapOut">
+    <wsdl:part name="parameters" element="tns:GuardaEncuestaContestadaResponse" />
+  </wsdl:message>
+  <wsdl:message name="GuardaEncuestaContestadaAuthHeader">
+    <wsdl:part name="AuthHeader" element="tns:AuthHeader" />
+  </wsdl:message>
+  <wsdl:portType name="WSEncuestaMovilSoap">
+    <wsdl:operation name="ObtenerDispositivoNumero">
+      <wsdl:input message="tns:ObtenerDispositivoNumeroSoapIn" />
+      <wsdl:output message="tns:ObtenerDispositivoNumeroSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtieneEncuestaPorDispositivo">
+      <wsdl:input message="tns:ObtieneEncuestaPorDispositivoSoapIn" />
+      <wsdl:output message="tns:ObtieneEncuestaPorDispositivoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GuardaCoordenadasDispositivo">
+      <wsdl:input message="tns:GuardaCoordenadasDispositivoSoapIn" />
+      <wsdl:output message="tns:GuardaCoordenadasDispositivoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="NotificacionEncuestapendiente">
+      <wsdl:input message="tns:NotificacionEncuestapendienteSoapIn" />
+      <wsdl:output message="tns:NotificacionEncuestapendienteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GuardaEncuestaContestada">
+      <wsdl:input message="tns:GuardaEncuestaContestadaSoapIn" />
+      <wsdl:output message="tns:GuardaEncuestaContestadaSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSEncuestaMovilSoap" type="tns:WSEncuestaMovilSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ObtenerDispositivoNumero">
+      <soap:operation soapAction="http://tempuri.org/ObtenerDispositivoNumero" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:ObtenerDispositivoNumeroAuthHeader" part="AuthHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtieneEncuestaPorDispositivo">
+      <soap:operation soapAction="http://tempuri.org/ObtieneEncuestaPorDispositivo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:ObtieneEncuestaPorDispositivoAuthHeader" part="AuthHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GuardaCoordenadasDispositivo">
+      <soap:operation soapAction="http://tempuri.org/GuardaCoordenadasDispositivo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GuardaCoordenadasDispositivoAuthHeader" part="AuthHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NotificacionEncuestapendiente">
+      <soap:operation soapAction="http://tempuri.org/NotificacionEncuestapendiente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:NotificacionEncuestapendienteAuthHeader" part="AuthHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GuardaEncuestaContestada">
+      <soap:operation soapAction="http://tempuri.org/GuardaEncuestaContestada" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GuardaEncuestaContestadaAuthHeader" part="AuthHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSEncuestaMovilSoap12" type="tns:WSEncuestaMovilSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ObtenerDispositivoNumero">
+      <soap12:operation soapAction="http://tempuri.org/ObtenerDispositivoNumero" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:ObtenerDispositivoNumeroAuthHeader" part="AuthHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtieneEncuestaPorDispositivo">
+      <soap12:operation soapAction="http://tempuri.org/ObtieneEncuestaPorDispositivo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:ObtieneEncuestaPorDispositivoAuthHeader" part="AuthHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GuardaCoordenadasDispositivo">
+      <soap12:operation soapAction="http://tempuri.org/GuardaCoordenadasDispositivo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GuardaCoordenadasDispositivoAuthHeader" part="AuthHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NotificacionEncuestapendiente">
+      <soap12:operation soapAction="http://tempuri.org/NotificacionEncuestapendiente" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:NotificacionEncuestapendienteAuthHeader" part="AuthHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GuardaEncuestaContestada">
+      <soap12:operation soapAction="http://tempuri.org/GuardaEncuestaContestada" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GuardaEncuestaContestadaAuthHeader" part="AuthHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WSEncuestaMovil">
+    <wsdl:port name="WSEncuestaMovilSoap" binding="tns:WSEncuestaMovilSoap">
+      <soap:address location="http://localhost:56522/WSEncuestaMovil.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WSEncuestaMovilSoap12" binding="tns:WSEncuestaMovilSoap12">
+      <soap12:address location="http://localhost:56522/WSEncuestaMovil.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

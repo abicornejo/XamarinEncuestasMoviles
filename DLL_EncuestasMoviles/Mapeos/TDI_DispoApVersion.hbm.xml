@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Entidades_EncuestasMoviles" assembly="Entidades_EncuestasMoviles">
+  <class name="TDI_DispoApVersion" table="SEML_TDI_DISPOAPVERSION">
+    <id name="ID_DISAPVER" column="ID_DISAPVER">
+      <generator class="sequence">
+        <param name="sequence">SEQ_SEML_TDI_DISPOAPVER</param>
+      </generator>
+    </id>
+    <property name="NUM_TEL" column="NUM_TEL"/>
+    <property name="NUMBER" column="VER_CODE"/>
+    <property name="VER_NAME" column="VER_NAME"/>
+    <property name="VER_DATE" column="VER_DATE"/>   
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Entidades_EncuestasMoviles" assembly="Entidades_EncuestasMoviles">
+  <class name="TDI_LogPaginas" table="SEML_TDI_LOGPAGINAS">
+    <id name="IdLogPagina" column="ID_LOGPAGINA">
+      <generator class="sequence">
+        <param name="sequence">SEQ_SEML_THE_LOG_RESP_SELECTED</param>
+      </generator>
+    </id>
+
+   <many-to-one name="EmpleadoLlavePrimaria" class="THE_Empleado" column="EMPL_LLAV_PR" lazy="false"/>
+
+    <property name="LogFecha" column="LOG_FECHA"/>
+    <property name="LogIp" column="LOG_IP"/>
+    <property name="LogUrlPagina" column="LOG_URL_PAGINA"/>
+
+  </class>
+</hibernate-mapping>

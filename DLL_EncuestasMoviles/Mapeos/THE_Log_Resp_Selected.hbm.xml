@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Entidades_EncuestasMoviles" assembly="Entidades_EncuestasMoviles">
+  <class name="THE_LogRespSelected" table="SEML_THE_LOG_RESP_SELECTED">
+    <id name="NoResp" column="NO_RESP_SELECTED">
+      <generator class="sequence">
+        <param name="sequence">SEQ_SEML_THE_LOG_RESP_SELECTED</param>
+      </generator>
+    </id>
+    
+    <property name="OrdenRespSelected" column="ORDEN_RESP_SELECTED"/>
+    <property name="IdEncuestaSelected" column="REF_ID_ENCUESTA"/>
+    <property name="DescRespuestaSelected" column="DESC_RESP_SELECTED"/>
+    <property name="IdRespSelected" column="RESP_ID_SELECTED"/>
+    <property name="Evento_Resp" column="EVENTO_RESP"></property>
+    <property name="Fecha_Evento" column="FECHA_EVENTO"></property>
+    <property name="NumTel" column="NUM_TEL"/>
+    
+  </class>
+</hibernate-mapping>

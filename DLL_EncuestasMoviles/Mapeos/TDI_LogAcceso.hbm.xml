@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Entidades_EncuestasMoviles" assembly="Entidades_EncuestasMoviles">
+  <class name="TDI_LogAcceso" table="SEML_TDI_LOGACCESO">
+    <id name="IdLogAcceso" column="ID_LOGACCESO">
+      <generator class="sequence">
+        <param name="sequence">SEQ_SEML_TDI_LOGACCESO</param>
+      </generator>
+    </id>
+
+    <many-to-one name="EmplLlavPr" class="THE_Empleado" column="EMPL_LLAV_PR" lazy="false"/>
+    <many-to-one name="IdTipoAcceso" class="TDI_TipoAcceso" column="ID_TIPOACCESO" lazy="false"/>
+
+    <property name="EmpleadoUsua" column="EMPL_USUA" />
+    <property name="LogAccesoMaquina" column="LOG_MAQUINA"/>
+    <property name="LogAccesoFecha" column="LOG_FECHAACCESO"/>
+    <property name="LogAccesoDominio" column="LOG_DOMAIN"/>
+    <property name="LogAccesoIP" column="LOG_IP"/>
+
+  </class>
+</hibernate-mapping>

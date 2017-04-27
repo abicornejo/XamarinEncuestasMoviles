@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0FEDE8FA-6472-40AE-9DA4-C171C2A1526F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DLL_EncuestasMoviles</RootNamespace>
+    <AssemblyName>DLL_EncuestasMoviles</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="com.dsi.pgp, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Shared Binaries\com.dsi.pgp.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentePGP">
+      <HintPath>..\..\Shared Binaries\ComponentePGP.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate">
+      <HintPath>..\..\Shared Binaries\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.ByteCode.Castle">
+      <HintPath>..\..\Shared Binaries\NHibernate.ByteCode.Castle.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.DataAccess, Version=4.112.3.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=AMD64" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="vbCryptoLibrary">
+      <HintPath>..\..\Shared Binaries\vbCryptoLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MngDatosArbolEncuesta.cs" />
+    <Compile Include="MngDatosBaseRespuestas.cs" />
+    <Compile Include="MngDatosBloqueoIP.cs" />
+    <Compile Include="MngDatosBloqueoUsuario.cs" />
+    <Compile Include="MngDatosCatalogo.cs" />
+    <Compile Include="MngDatosColonias.cs" />
+    <Compile Include="MngDatosCPCol.cs" />
+    <Compile Include="MngDatosDispositivo.cs" />
+    <Compile Include="MngDatosEmpleadoRol.cs" />
+    <Compile Include="MngDatosEncuesta.cs" />
+    <Compile Include="MngDatosEncuestaDispositivo.cs" />
+    <Compile Include="MngDatosEncuestaLog.cs" />
+    <Compile Include="MngDatosEstado.cs" />
+    <Compile Include="MngDatosEstatus.cs" />
+    <Compile Include="MngDatosGraficas.cs" />
+    <Compile Include="MngDatosLogAcceso.cs" />
+    <Compile Include="MngDatosLogErrores.cs" />
+    <Compile Include="MngDatosLogPaginas.cs" />
+    <Compile Include="MngDatosLogRespSelected.cs" />
+    <Compile Include="MngDatosMenu.cs" />
+    <Compile Include="MngDatosMunicipios.cs" />
+    <Compile Include="MngDatosNotificaciones.cs" />
+    <Compile Include="MngDatosOpcionCat.cs" />
+    <Compile Include="MngDatosPeriodoEncuesta.cs" />
+    <Compile Include="MngDatosPorcentajeBateria.cs" />
+    <Compile Include="MngDatosPreguntas.cs" />
+    <Compile Include="MngDatosPreguntasRespuestas.cs" />
+    <Compile Include="MngDatosProgramacion.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MngDatosProgXFecha.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MngDatosProgXSemana.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MngDatosPushTran.cs" />
+    <Compile Include="MngDatosRespuestas.cs" />
+    <Compile Include="MngDatosTieneRespAleatorias.cs" />
+    <Compile Include="MngDatosTipoAcceso.cs" />
+    <Compile Include="MngDatosTipoAsenta.cs" />
+    <Compile Include="MngDatosPresentacion.cs" />
+    <Compile Include="MngDatosTipoEncuesta.cs" />
+    <Compile Include="MngDatosTipoProgramacion.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MngDatosTipoRespuestas.cs" />
+    <Compile Include="MngDatosTipoZona.cs" />
+    <Compile Include="MngDatosTransacciones.cs" />
+    <Compile Include="MngDatosUsuario.cs" />
+    <Compile Include="MngDatosUsuarioCat.cs" />
+    <Compile Include="MngDatosUsuarioDispositivo.cs" />
+    <Compile Include="MngDatosUsuarioSesion.cs" />
+    <Compile Include="NHibernateHelperORACLE.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapeos\THE_Encuesta.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entidades_EncuestasMoviles\Entidades_EncuestasMoviles.csproj">
+      <Project>{62A7A5C9-D417-4781-B92D-B0E8B80B8183}</Project>
+      <Name>Entidades_EncuestasMoviles</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapeos\TDI_EncuestaDispositivo.hbm.xml" />
+    <EmbeddedResource Include="Mapeos\TDI_Estatus.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mapeos\THE_Dispositivo.hbm.xml" />
+    <EmbeddedResource Include="Mapeos\THE_Preguntas.hbm.xml" />
+    <EmbeddedResource Include="Mapeos\THE_Respuestas.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapeos\TDI_EmpleadoRol.hbm.xml" />
+    <EmbeddedResource Include="Mapeos\TDI_EstatusMensaje.hbm.xml" />
+    <EmbeddedResource Include="Mapeos\TDI_LogAcceso.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mapeos\TDI_Mensaje.hbm.xml" />
+    <EmbeddedResource Include="Mapeos\TDI_MensajeLog.hbm.xml" />
+    <EmbeddedResource Include="Mapeos\TDI_Rol.hbm.xml" />
+    <EmbeddedResource Include="Mapeos\TDI_TipoAcceso.hbm.xml" />
+    <EmbeddedResource Include="Mapeos\THE_Empleado.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapeos\TDI_Colonias.hbm.xml" />
+    <EmbeddedResource Include="Mapeos\TDI_CPCol.hbm.xml" />
+    <EmbeddedResource Include="Mapeos\TDI_EncuestaLog.hbm.xml" />
+    <EmbeddedResource Include="Mapeos\TDI_Estado.hbm.xml" />
+    <EmbeddedResource Include="Mapeos\TDI_Municipios.hbm.xml" />
+    <EmbeddedResource Include="Mapeos\TDI_OpcionCat.hbm.xml" />
+    <EmbeddedResource Include="Mapeos\TDI_UsuarioCat.hbm.xml" />
+    <EmbeddedResource Include="Mapeos\THE_Catalogo.hbm.xml" />
+    <EmbeddedResource Include="Mapeos\THE_CodigoPostal.hbm.xml" />
+    <EmbeddedResource Include="Mapeos\THE_LogError.hbm.xml" />
+    <EmbeddedResource Include="Mapeos\THE_TipoAsenta.hbm.xml" />
+    <EmbeddedResource Include="Mapeos\THE_TipoZona.hbm.xml" />
+    <EmbeddedResource Include="Mapeos\THE_Usuario.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapeos\TDI_UbicacionDispositivo.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapeos\TDI_PreguntasRespuestas.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapeos\TDI_UsuarioDispositivo.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapeos\TDI_BaseRespuestas.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapeos\TDI_LogPaginas.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapeos\THE_BloqueoUsuario.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapeos\TDI_TipoBloqueo.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapeos\THE_BloqueoIP.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapeos\TDI_Transacc.hbm.xml" />
+    <EmbeddedResource Include="Mapeos\THE_LogTran.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapeos\THE_SesionUsuario.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapeos\THE_Tipo_Respuestas.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapeos\THE_Log_Resp_Selected.hbm.xml" />
+    <EmbeddedResource Include="Mapeos\TDI_Presentacion.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapeos\THE_PusTran.hbm.xml" />
+    <EmbeddedResource Include="Mapeos\TDI_TieneRespAleatorias.hbm.xml" />
+    <EmbeddedResource Include="Mapeos\TDI_Notificaciones.hbm.xml" />
+    <EmbeddedResource Include="Mapeos\TDI_DispoApVersion.hbm.xml" />
+    <EmbeddedResource Include="Mapeos\TDI_ProgDispo.hbm.xml" />
+    <EmbeddedResource Include="Mapeos\TDI_EncEncrypt.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="Mapeos\THE_Periodos_Encuesta.hbm.xml" />
+    <Content Include="Mapeos\THE_PeriodosEncuesta.hbm.xml" />
+    <EmbeddedResource Include="Mapeos\THE_Programacion.hbm.xml" />
+    <EmbeddedResource Include="Mapeos\THE_ProgXFecha.hbm.xml" />
+    <EmbeddedResource Include="Mapeos\THE_ProgXSemana.hbm.xml" />
+    <EmbeddedResource Include="Mapeos\TDI_TipoEncuesta.hbm.xml" />
+    <EmbeddedResource Include="Mapeos\TDI_TipoProgramacion.hbm.xml" />
+    <Content Include="Mapeos\THE_Log_Resp_Selected.hbm.xml" />
+    <EmbeddedResource Include="Mapeos\THE_Porcentaje_Bateria.hbm.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/FondoLoginAndroid">
+    <TextView
+        android:id="@+id/lblTituloFin"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:textColor="#045FB4"
+        android:gravity="center"
+        android:textSize="18dip"
+        android:text="Encuesta Finalizada"
+        android:layout_weight=".5"
+        android:layout_marginTop="35.0dp" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="3dip"
+        android:background="@drawable/lineaH" />
+    <TextView
+        android:id="@+id/lblMensajeFin"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:textColor="#045FB4"
+        android:gravity="center_horizontal"
+        android:textSize="16dip"
+        android:text="Por responder esta encuesta ha ganado 5 puntos."
+        android:textStyle="normal"
+        android:typeface="normal" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_vertical"
+        android:id="@+id/layoutFin">
+        <ImageButton
+            android:id="@+id/btnAceptarFin"
+            android:layout_width="94.0dp"
+            android:layout_height="30.0dp"
+            android:src="@drawable/btnAceptarEncuesta"
+            android:layout_gravity="center"
+            android:layout_marginBottom="0.0dp"
+            android:layout_marginRight="0.0dp"
+            android:layout_marginTop="15.0dp" />
+    </LinearLayout>
+</LinearLayout>

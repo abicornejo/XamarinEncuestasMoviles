@@ -1,0 +1,1310 @@
+﻿/* CSS Document */
+body
+{
+	color:#505050;
+	background-color:#025F8F;
+	background-image:url(../Images/Body.png);/*Images/Body.png*/
+	background-repeat:no-repeat;
+	background-position:center;
+	margin:auto;
+	float:none;
+	width:1024px;
+	height:768px;
+}
+a.estilolink
+{
+ color:Red; font: 14px Arial, Helvetica, sans-serif; height: 35px;
+}
+
+.logout
+{
+  color:White; font: 14px Arial, Helvetica, sans-serif;height: 35px; 
+}
+
+.divHeader
+{
+	width:946px;
+	height:90px;
+	background-image:url(../Images/nuevoHeader.png);
+	margin:auto;
+	float:none;
+}
+
+.divHeader2
+{
+	width:946px;
+	height:90px;
+	background-image:url(../../Images/nuevoHeader.png);
+	margin:auto;
+	float:none;
+}
+.divBodyBlanco
+{
+	width:946px;
+	height:600px;
+	background-color:#FFFFFF;
+	margin:auto;
+	float:none;
+	font-family:Arial, Helvetica, sans-serif;
+    color:#505050;
+    font-weight:bold;
+    font-size:11px;
+}
+.styleCombosCat
+{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#505050;
+    font-weight:bold;
+    font-size:11px;
+    }
+
+.divMenuContenerdor
+{
+	width:100%;
+	height:20px;
+	border:2px solid #3F3F3F;
+	float:left;
+	background-color:#D0D0D0;
+	color:#0062BF;	
+}
+
+#MenuPrinc .btnMasterMenu
+{	
+	float:left;
+	height:20px;
+    width:auto;
+	padding: 10px 15px 0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	text-align:center;
+	background-color:transparent;
+	margin-top:2px;
+}
+#MenuPrinc .btnMasterMenu:hover
+{
+	background-color:#BEBEBE;
+	color:#053E5E;
+}
+#MenuPrinc .divInterBtnMenu
+{
+	height:20px;
+	width:3px;
+	float:left;
+	/*background-image:url(../Images/DivisionMenu.png);
+}
+
+.h3
+{
+    color:#DCDCDC;
+	float:left;
+	margin:0 0 0 5px;
+	font-size:.9em;
+}
+
+.divHeader01
+{
+	border-left: 0px solid #505050;
+    border-right: 0px solid #505050;
+    border-top: 0px solid #505050;
+    float:left;
+	border-bottom:3px solid #505050;	
+	height:97px;
+	width:100%;
+	background-image: -moz-linear-gradient(center top, #073C64,  #66C3E5); /* FF3.6 */
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#073C64 ), to(#66C3E5));
+}
+.divHeader02
+{
+	border-left: 0px solid #505050;
+    border-right: 0px solid #505050;
+    float:left;
+	border-bottom:1px solid #505050;	
+	border-top:1px solid #ffffff;
+	height:28px;
+	width:100%;
+	background-image:  -webkit-gradient(linear, center top, center bottom, from(#DCDCDC ), to(#C8C8C8)); /* FF3.6 */
+}
+.divHeader03
+{
+	float:left;
+	border:0px solid #1E1E1E;
+	height:23px;
+	width:100%;
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#646464), to(#282828)); /* FF3.6 */
+}
+.cajaLogo
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    width:100%;
+    height:120px;
+   
+}
+
+.textoSecciones
+{
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;    
+    padding-left:10px;
+}
+
+.textoLogin
+{
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;    
+    padding-left:10px;
+}
+
+.Titulo
+{
+    margin-top:26px;
+	font: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	float:left;
+	font-size:2em;
+	background-color:Black;
+}
+
+.Ventana
+{
+    height: 380px;
+}
+.footer
+{
+    color: #4e5766;
+    padding: 8px 0px 0px 0px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: normal;
+}
+
+.page
+{
+    width: 85%;
+    background-color: #fff;
+    margin: 20px auto 0px auto;
+    border: 1px solid #496077;
+}
+
+.header
+{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    
+    width: 100%;
+}
+
+.header h1
+{
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+}
+/* TAB MENU   
+----------------------------------------------------------*/
+
+#MenuPrinc
+{
+    padding: 4px 0px 4px 8px;
+}
+
+#MenuPrinc ul
+{	
+    list-style: none;    
+    padding: 0px;
+    width: auto;
+}
+
+#MenuPrinc ul li a, div.menu ul li a:visited
+{
+    width:100%;
+	margin-left:5px;	
+	margin-right:25px;	
+    text-align:center;
+	float:left;
+	background-color:transparent;
+	border:0px solid #000000;
+	border-right:2px solid #000000;
+	/*color:#0062BF;*/
+	color:White;
+	
+}
+
+  a:active
+ {
+    color:Red;
+    cursor : hand;
+    font-weight:bold;  
+ }
+ 
+
+#MenuPrinc ul li a:hover
+{
+    background-color:White;
+    color:Black;
+    text-decoration: none;
+}
+
+#MenuPrinc ul li a:active
+{
+    background-color: #465c71;
+    /*color: #cfdbe6;*/
+    color:White;
+    text-decoration: none;
+}
+
+.title
+{
+    color:White;
+    background-color:Gray;
+    display: block;
+    float: left;
+    text-align: left;
+    width: 100%;
+}
+.main
+{
+    padding: 0px 12px;
+    margin: 12px 8px 8px 8px;
+    min-height: 420px;
+}
+
+/*Modal Popup*/
+.modalBackground {
+	background-color:Gray;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+}
+
+.modalPopup 
+{
+    width:900px;
+    height:450px;
+	background-color:Gray;
+	color:White;
+	border-width:3px;
+	border-style:solid;
+	padding:3px;
+}
+
+.modalPopupAltDisp
+{
+    width:550px;
+    height:250px;
+	background-color:Gray;
+	color:White;
+	border-width:3px;
+	border-style:solid;
+	padding:3px;
+}
+
+.modalPopup p {
+    padding: 5px;
+}
+
+.modalPopupEncabezado
+{
+	cursor: move;
+	background-color: #1C1C1C;
+	border: solid 1px Gray;
+	color:White;
+	height: 20px;
+	font-weight: bold;
+	
+}
+/*Calendario*/
+.MyCalendar .ajax__calendar_container {
+    border:1px solid #646464;
+    background-color:Silver;
+    color:Black;
+}
+.MyCalendar .ajax__calendar_other .ajax__calendar_day,
+.MyCalendar .ajax__calendar_other .ajax__calendar_year {
+    color:Green;
+}
+.MyCalendar .ajax__calendar_hover .ajax__calendar_day,
+.MyCalendar .ajax__calendar_hover .ajax__calendar_month,
+.MyCalendar .ajax__calendar_hover .ajax__calendar_year {
+    color:Yellow;
+}
+.MyCalendar .ajax__calendar_active .ajax__calendar_day,
+.MyCalendar .ajax__calendar_active .ajax__calendar_month,
+.MyCalendar .ajax__calendar_active .ajax__calendar_year {
+    color:Blue;
+    font-weight:bold;
+}
+
+
+.ModalPopupBG
+{
+    background-color:White;
+	filter: alpha(opacity=50);
+	opacity: 0.7;
+}
+
+.popup_Container {
+	background-color:#fffeb2;
+	border:2px solid #000000;
+	padding: 0px 0px 0px 0px;
+}
+
+.popupConfirmation
+{
+	height: 120px;
+	width: 100px;
+	background-color:White;
+}
+
+.popup_Titlebar {
+	background: url(../Images/titlebar_bg.jpg);
+	height: 29px;
+}
+
+.popup_Body
+{
+	padding:15px 15px 15px 15px;
+	font-family:Arial;
+	font-weight:bold;
+	font-size:12px;
+	color:white;
+	line-height:15pt;
+	clear:both;
+	padding:5px;
+	background-color:White;
+}
+
+.mpHd
+{
+    color:Black;
+    background-color:White;
+}
+
+.TitlebarLeft 
+{
+	float:left;
+	padding-left:5px;
+	padding-top:5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:12px;
+	color:#FFFFFF;
+}
+.TitlebarRight 
+{
+	height:43px;
+	width:119px;
+	float:left;
+	cursor:pointer;
+	margin-right:-200px;
+	margin-top:5px;
+}
+
+.popup_Buttons
+{
+	margin:10px;
+}
+
+/* TextBox Busca Encuesta */
+.textoBuscaEncu
+{
+    background-image:url(../Images/not.jpg);
+    height:19px;
+    width:150px;
+    cursor:pointer;
+}
+
+.indicadorImgNot
+{
+    background-image:url(../Images/not.jpg);
+}
+
+/* Accordion */
+.AcordeonHeader
+{
+    border: 1px solid #2F4F4F;
+    color: white;
+    background: url(../Images/titlebar_bg.jpg);
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	font-weight: bold;
+    padding: 0px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+#master_content .AcordeonHeader a
+{
+	color: #FFFFFF;
+	background: none;
+	text-decoration: none;
+}
+
+#master_content .AcordeonHeader a:hover
+{
+	background: none;
+	text-decoration: underline;
+}
+
+.AcordeonSeleccionado
+{
+    border: 1px solid #2F4F4F;
+    color: white;
+    background: url(../Images/titlebar_bg.jpg);
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	font-weight: bold;
+    padding: 0px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+#master_content .AcordeonSeleccionado a
+{
+	color: #FFFFFF;
+	background: none;
+	text-decoration: none;
+}
+
+#master_content .AcordeonSeleccionado a:hover
+{
+	background: none;
+	text-decoration: underline;
+}
+
+.AcordeonContenido
+{
+    background-color:White;
+    border: 1px dashed #2F4F4F;
+    border-top: none;
+    padding: 5px;
+    padding-top: 10px;
+    color:Black;
+}
+
+
+/*MODAL TOOLTIP USUARIOS*/
+
+#personPopupContainer
+{
+    position:absolute;
+    left:0;
+    top:0;
+    display:none;
+    z-index: 20000;
+}
+
+.personPopupPopup
+{
+}
+
+#personPopupContent
+{
+    background-color: #FFF;
+    min-width: 175px;
+    min-height: 50px;
+}
+
+.personPopupPopup .personPopupImage
+{
+    margin: 5px;
+    margin-right: 15px;
+}
+
+.personPopupPopup .corner 
+{
+    width: 19px;
+    height: 15px;
+}
+    
+.personPopupPopup .topLeft 
+{
+    background: url(../Images/ToolTip/balloon_topLeft.png) no-repeat;
+}
+    
+.personPopupPopup .bottomLeft 
+{
+    background: url(../Images/ToolTip/balloon_bottomLeft.png) no-repeat;
+}
+
+.personPopupPopup .left 
+{
+    background: url(../Images/ToolTip/balloon_left.png) repeat-y;
+}
+    
+.personPopupPopup .right 
+{
+    background: url(../Images/ToolTip/balloon_right.png) repeat-y;
+}
+    
+.personPopupPopup .topRight 
+{
+    background: url(../Images/ToolTip/balloon_topRight.png) no-repeat;
+}
+    
+.personPopupPopup .bottomRight 
+{
+    background: url(../Images/ToolTip/balloon_bottomRight.png) no-repeat;
+}
+    
+.personPopupPopup .top 
+{
+    background: url(../Images/ToolTip/balloon_top.png) repeat-x;
+}
+
+.personPopupPopup .bottom 
+{
+    background: url(../Images/ToolTip/balloon_bottom.png) repeat-x;
+    text-align: center;
+}
+
+/*MODAL TOOLTIP USUARIOS*/
+
+/* ALTA USUARIO */
+
+.CustomValidatorCalloutStyle div, 
+.CustomValidatorCalloutStyle td 
+{
+    border-color:Orange;
+    border:3px;
+    font-weight:bold;
+    background-color:Silver;
+    color:Black;
+    vertical-align:middle;
+    text-align:center;
+}
+
+#personPopupContainer2
+{
+    position:absolute;
+    left:0;
+    top:0;
+    display:none;
+    z-index: 20000;
+}
+
+.personPopupPopup2
+{
+}
+
+#personPopupContent2
+{
+    background-color: #FFF;
+    min-width: 175px;
+    min-height: 50px;
+}
+
+.personPopupPopup2 .personPopupImage
+{
+    margin: 5px;
+    margin-right: 15px;
+}
+
+.personPopupPopup2 .corner 
+{
+    width: 19px;
+    height: 15px;
+}
+    
+.personPopupPopup2 .topLeft 
+{
+    background: url(../Images/ToolTip/balloon_topLeft.png) no-repeat;
+}
+    
+.personPopupPopup2 .bottomLeft 
+{
+    background: url(../Images/ToolTip/balloon_bottomLeft.png) no-repeat;
+}
+    
+.personPopupPopup2 .left 
+{
+    background: url(../Images/ToolTip/balloon_left.png) repeat-y;
+}
+    
+.personPopupPopup2 .right 
+{
+    background: url(../Images/ToolTip/balloon_right.png) repeat-y;
+}
+    
+.personPopupPopup2 .topRight 
+{
+    background: url(../Images/ToolTip/balloon_topRight.png) no-repeat;
+}
+    
+.personPopupPopup2 .bottomRight 
+{
+    background: url(../Images/ToolTip/balloon_bottomRight.png) no-repeat;
+}
+    
+.personPopupPopup2 .top 
+{
+    background: url(../Images/ToolTip/balloon_top.png) repeat-x;
+}
+    
+.personPopupPopup2 .bottom 
+{
+    background: url(../Images/ToolTip/balloon_bottom.png) repeat-x;
+    text-align: center;
+}
+
+/* ALTA USUARIO */
+
+
+/* ACORDEON ALTA USUARIO */
+
+/* Accordion */
+.AcordeonHeader
+{
+    border: 1px solid gray;
+    color: white;
+    background: url(../../Images/titlebar_bg.jpg);
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	font-weight: bold;
+    padding: 5px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+#master_content .AcordeonHeader a
+{
+	color: #FFFFFF;
+	background: none;
+	text-decoration: none;
+}
+
+#master_content .AcordeonHeader a:hover
+{
+	background: none;
+	text-decoration: underline;
+}
+
+.AcordeonSeleccionado
+{
+    border: 1px solid #2F4F4F;
+    color: white;
+    background: url(../../Images/titlebar_bg.jpg);
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	font-weight: bold;
+    padding: 5px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+#master_content .AcordeonSeleccionado a
+{
+	color: #FFFFFF;
+	background: none;
+	text-decoration: none;
+}
+
+#master_content .AcordeonSeleccionado a:hover
+{
+	background: none;
+	text-decoration: underline;
+}
+
+.AcordeonContenido
+{
+    background-color:Gray;
+    border: 1px dashed #2F4F4F;
+    border-top: none;
+    padding: 5px;
+    padding-top: 10px;
+    color:Black;
+    text-align:left;
+}
+.ListDispositivos li
+{
+    display:inline-block;
+    float:left;
+    margin-left:1px;
+    margin-bottom:1px;
+    color:Black;
+    text-align:center;
+}
+
+/* ACORDEON ALTA USUARIO */
+
+/* ACORDEON ENCUESTA DISPOSITIVO */
+
+.AcordeonHeaderEncuDis
+{
+    border: 1px solid gray;
+    color:Black;
+    background-color:Aqua;
+	font-family: Arial, Sans-Serif;
+	font-size: 10px;
+	font-weight: bold;
+    padding: 5px;
+    margin-top: 0px;
+    cursor: pointer;
+    width:500;
+}
+
+.AcordeonTituloEncuDis
+{
+    border: 1px solid #2F4F4F;
+    color:Black;
+    background-color:Aqua;
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	font-weight: bold;
+    padding: 0px;
+    margin-top: 0px;
+    cursor: pointer;
+    width:500;
+}
+
+.AcordeonContenidoEncuDis
+{
+    background-color:White;
+    border: 1px dashed #2F4F4F;
+    border-top: none;
+    padding: 5px;
+    padding-top: 10px;
+    color:Black;
+    text-align:left;
+    font-size:11px;
+    height:13px;
+}
+
+/* ACORDEON ENCUESTA DISPOSITIVO */
+.btnMasterCuadrado
+
+{
+
+	float:left;
+
+	width:21px;
+
+	height:21px;
+
+	border:1px solid #969696;
+
+	background-position:center;
+
+	background-repeat:no-repeat;
+
+	/* Firefox 3.6 */
+
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#E5E5E5', endColorstr='#C9C9C9')";
+    background-image: url(../Images/icoSTOPc.png), -webkit-gradient(linear,left bottom,left top,color-stop(0, #E5E5E5),color-stop(1, #C9C9C9));/* Safari & Chrome */
+}
+
+.btnMasterCuadrado:hover
+
+{
+
+	/* Firefox 3.6 */
+
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#BEBEBE', endColorstr='#BEBEBE')";
+    background-image: url(../Images/icoSTOPc.png), -webkit-gradient(linear,left bottom,left top,color-stop(0, #BEBEBE),color-stop(1, #BEBEBE));/* Safari & Chrome */
+}
+
+
+
+
+
+
+
+
+
+.btnMasterCuadradoIE
+
+{
+
+	float:left;
+
+	width:21px;
+
+	height:21px;
+
+	padding:0px;
+
+	border:1px solid #969696;
+
+	/* Firefox 3.6 */
+
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#E5E5E5', endColorstr='#C9C9C9')";
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #E5E5E5),color-stop(1, #C9C9C9));/* Safari & Chrome */
+}
+
+.btnMasterCuadradoIE:hover
+
+{
+
+	/* Firefox 3.6 */
+
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#BEBEBE', endColorstr='#BEBEBE')";
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #BEBEBE),color-stop(1, #BEBEBE));/* Safari & Chrome */
+}
+.btnAgregarGrid
+{
+    float:left;
+
+	height:32px;
+
+	width:32px;
+	
+	background-image:url(../Images/iconoagregar.png);
+	
+    background-position:center;
+
+	background-repeat:no-repeat;
+}
+.btnEditarGrid
+{
+    float:left;
+
+	height:32px;
+
+	width:32px;
+	
+	background-image:url(../Images/iconoeditar.png);
+	
+    background-position:center;
+
+	background-repeat:no-repeat;
+}
+.btnEliminarGrid
+{
+    float:left;
+
+	height:32px;
+
+	width:32px;
+	
+	background-image:url(../Images/iconoeliminar.png);
+	
+    background-position:center;
+
+	background-repeat:no-repeat;
+}
+.btnGraficarGrid
+{
+    float:left;
+	height:32px;
+	width:32px;	
+	background-image:url(../Images/iconograficar.png);	
+    background-position:center;
+	background-repeat:no-repeat;
+}
+.btnPublicarGrid
+{
+    float:left;
+
+	height:32px;
+
+	width:32px;
+	
+	background-image:url(../Images/iconopublicar.png);
+	
+    background-position:center;
+
+	background-repeat:no-repeat;
+}
+.btnVistaPreviaGrid
+{
+    float:left;
+
+	height:32px;
+
+	width:32px;
+	
+	background-image:url(../Images/iconovistaorevia.png);
+	
+    background-position:center;
+
+	background-repeat:no-repeat;
+}
+.divImgAgregar
+
+{
+
+	float:left;
+
+	height:19px;
+
+	width:19px;
+	
+	background-image:url(../Images/signomas.png);
+	
+    background-position:center;
+
+	background-repeat:no-repeat;
+
+}
+.divImgQuitar
+
+{
+
+	float:left;
+
+	height:19px;
+
+	width:19px;
+	
+	background-image:url(../Images/signomenos.png);
+	
+    background-position:center;
+
+	background-repeat:no-repeat;
+
+}
+
+.divImgSubir
+
+{
+
+	float:left;
+
+	height:19px;
+
+	width:19px;
+	
+	background-image:url(../Images/signosubir.png);
+	
+    background-position:center;
+
+	background-repeat:no-repeat;
+
+}
+.divImgBajar
+
+{
+
+	float:left;
+
+	height:19px;
+
+	width:19px;
+	
+	background-image:url(../Images/signobajar.png);
+	
+    background-position:center;
+
+	background-repeat:no-repeat;
+
+}
+
+
+.btnMasterRectangular
+
+{
+
+
+	
+
+	font-family:Arial, Helvetica, sans-serif;
+
+	font-size:10px;
+
+	color:#29549F;
+
+	font-weight:bold;
+
+	text-align:center;
+
+	text-shadow:0px 1px 0px #FFFFFF; 
+
+	
+	margin:0px;
+
+	padding:0px 5px;
+
+	border:1.5px solid #969696;
+
+	/* Firefox 3.6 */
+
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#E5E5E5', endColorstr='#C9C9C9')";
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #E5E5E5),color-stop(1, #C9C9C9));/* Safari & Chrome */
+}
+.inputtext
+{
+    border:1px solid #505050;
+    margin-left: 0px;
+}
+.headerGrid
+{
+     background-color:#026CC9;
+border-right: 2px solid #505050;
+	color:#FFFFFF;
+
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	
+	 
+	
+    }
+.RowsGrid
+{
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:normal;
+	color:#505050;
+}
+.someClass tr td         {            border-right: 2px solid #505050;           } 
+.btnMasterRectangular:hover
+
+{
+
+	/* Firefox 3.6 */
+
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#C9C9C9', endColorstr='#C9C9C9')";
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #C9C9C9),color-stop(1, #C9C9C9));/* Safari & Chrome */
+}
+h1
+
+{	
+
+	margin:0px;
+
+	padding:0px;
+
+	font-family:Arial, Helvetica, sans-serif;
+
+	font-size:10px;
+
+	color:#29549F;
+
+	font-weight:bold;
+
+	text-align:center;
+
+	text-shadow:0px 1px 0px #FFFFFF; 
+
+	filter: progid:DXImageTransform.Microsoft.Shadow(direction=90,strength=1,color=FFFFFF);
+
+}
+
+
+h2
+{
+	font-family:Arial, Helvetica, sans-serif;
+
+	font-size:11px;
+	
+	color:#053E5E;
+	
+	margin:5px 0 0 10px;
+	
+	padding:0;
+	
+	font-weight:bold;
+
+	text-align:left;
+	
+}
+
+.ContenedorGeneral
+{
+
+	width:100%;
+
+	border:2px solid #3F3F3F;
+
+	float:none;
+	
+	margin:0 auto;
+
+	background-color:#FFFFFF;
+
+	color:#505050;
+	
+    clear:both;
+
+}
+.ContenedorGeneralAcordion
+{
+
+	width: 950px;/*99.5%abi*/
+
+	min-height:100px;
+
+	border:2px solid #3F3F3F;
+
+	float:inherit;/*none*/
+	
+	margin:0 auto;
+
+	background-color:#FFFFFF;
+
+	color:#505050;
+	
+    clear:both;
+
+}
+.MasterTituloContenedorAcordion
+{
+   font-family:Arial, Helvetica, sans-serif;
+
+	font-size:11px;
+	
+	color:#053E5E;
+	
+	font-weight:bold;
+
+	text-align:left;
+	
+    float:left;/*abi left*/
+
+	height:auto;
+
+    width: 100%;
+	
+    border:0px solid #3F3F3F;
+	
+	border-bottom:2px solid #3F3F3F;
+	
+	padding:0;
+
+	background-color:#D0D0D0;
+	
+    }
+.MasterTituloContenedor
+
+{	
+
+	float:left;
+
+	height:22px;
+
+    width:100%;
+	
+    border:0px solid #3F3F3F;
+	
+	border-bottom:2px solid #3F3F3F;
+	
+	padding:0;
+
+	background-color:#D0D0D0;
+
+}
+   
+    
+    
+#MenuPrincipal 
+{   
+	margin: 0px;
+	padding: 0;	
+	clear:both;
+	width:100%;
+	height:25px;
+ 	background: transparent url(../images/DegradadoMenu.png) repeat-x left top;
+
+}
+
+
+ul.level1,
+ul.level1 li {
+	list-style: none;		
+	margin-left: auto;
+	padding: 0;
+}
+
+
+ul.level1 
+{
+	
+	position: relative;
+	z-index: 597;
+}
+
+ul.level1 li:hover > ul {
+	visibility: visible;
+}
+
+
+ul.level1 li.hover,
+ul.level1 li:hover {
+	position: relative;
+	z-index: 599;
+	cursor: pointer;
+    background: transparent url(../images/DegradadoMenuHover.png) repeat-x left top;
+}
+
+
+
+ul.level1 li {
+	float:left;
+	/*display:block;*/
+	height: 20px;
+	color: #999;	
+	margin: 0px 50px 0px 10px;
+	font: 14px Arial, Helvetica, sans-serif;
+	/*background: url(../Images/DivisionMenu.png) no-repeat right center;*/
+}
+
+ul.level1 li a {
+	display:block;
+	padding: 5px 16px 0 16px;
+	height: 20px;
+	color: #29549F;
+	font: 12px Arial, Helvetica, sans-serif;
+	text-decoration:none;
+}
+
+ul.level1 li a:hover {
+	color:#053E5E;
+}
+
+
+
+ul.level1 *.list {
+	padding-right: 22px;
+	
+}
+
+
+
+ul.nav-sub {
+	visibility: hidden;
+	position: absolute;
+	padding:0px;
+	top: 48px;
+	left: 0;
+	z-index: 598;
+	background: transparent url(../images/DegradadoLista.png) repeat-x left top;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-left: 1px solid #000;
+	
+}
+
+
+ul.nav-sub li {
+	list-style:none;
+	display:block;
+	padding: 0;
+	height: 25px;
+	float: none;
+	width:190px;
+	border-bottom: 1px solid #5a5a5a;
+	background: none;
+}
+
+ul.nav-sub li a {
+	list-style:none;
+	display:block;
+	padding: 6px 5px 6px 5px;
+	height: 15px;
+	float: none;
+	width:190px;
+	background: none;
+	font: 12px Arial, Helvetica, sans-serif;	
+}
+
+
+
+    

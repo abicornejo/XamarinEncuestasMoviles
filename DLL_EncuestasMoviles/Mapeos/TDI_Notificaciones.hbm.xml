@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Entidades_EncuestasMoviles" assembly="Entidades_EncuestasMoviles">
+  <class name="TDI_Notificaciones" table="SEML_TDI_NOTIFICACIONES_TEMP">
+    <id name="IdNotificacion" column="ID_NOTIFICACION_TEMP">
+      <generator class="sequence">
+        <param name="sequence">SEQ_SEML_TDI_NOTIFICACION_TEMP</param>
+      </generator>
+    </id>
+    <property name="TokenDispositivo" column="TOKEN"/>
+    <property name="Mensaje" column="MENSAJE"/>
+    <property name="Periodo" column="PERIODO"/>
+    <property name="IdEncuesta" column="ID_ENCUESTA"/>
+    <property name="Status" column="ESTATUS"/>
+  </class>
+</hibernate-mapping>

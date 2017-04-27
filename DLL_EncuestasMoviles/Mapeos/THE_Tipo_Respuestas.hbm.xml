@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Entidades_EncuestasMoviles" assembly="Entidades_EncuestasMoviles">
+  <class name="THE_Tipo_Respuestas" table="SEML_THE_TIPO_RESPUESTAS">
+    <id name="IdTipoResp" column="ID_TIPO_RESP">
+      <generator class="native"/>      
+    </id>  
+    <property name="DescTipoResp" column="DESC_TIPO_RESP"/>
+    <property name="StatusTipoResp" column="STATUS_TIPO_RESP"/>
+  </class>
+</hibernate-mapping>

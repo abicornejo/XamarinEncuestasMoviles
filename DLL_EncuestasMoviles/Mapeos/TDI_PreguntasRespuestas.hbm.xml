@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Entidades_EncuestasMoviles" assembly="Entidades_EncuestasMoviles">
+  <class name="TDI_PreguntasRespuestas" table="SEML_THE_PREGUNTASRESPUESTAS">
+    <id name="IdPreguntasRespuestas" column="ID_PREGUNTASRESPUESTAS">
+      <generator class="sequence">
+        <param name="sequence">SEQ_SEML_THE_PREGRESP</param>
+      </generator>
+    </id>
+    <many-to-one name="IdDispositivo" class="THE_Dispositivo" column="ID_DISPOSITIVO" lazy="false"/>
+    <many-to-one name="IdEncuesta" class="THE_Encuesta" column="ID_ENCUESTA" lazy="false"/>
+    <many-to-one name="IdPregunta" class="THE_Preguntas" column="ID_PREGUNTA" lazy="false"/>
+    <many-to-one name="IdRespuesta" class="THE_Respuestas" column="ID_RESPUESTA" lazy="false"/>
+    <many-to-one name="IdEnvio" class="TDI_EncuestaDispositivo" column="ID_ENVIO" lazy="false"/>
+    <!--<property name="FechaInsercion" column="PREGRESP"/>-->
+    
+  </class>
+</hibernate-mapping>

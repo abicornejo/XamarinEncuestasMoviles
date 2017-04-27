@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Entidades_EncuestasMoviles" assembly="Entidades_EncuestasMoviles">
+  <class name="TDI_Estado" table="SEML_TDI_ESTADO">
+    <id name="IdEstado" column="ID_ESTADO">
+      <generator class="native"/>
+    </id>
+
+    <property name="EstadoNombre" column="ESTADO_NOMBRE"/>
+    <property name="EstadoEstatus" column="ESTADO_ESTATUS"/>
+
+  </class>
+</hibernate-mapping>
+

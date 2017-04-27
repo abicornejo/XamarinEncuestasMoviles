@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Entidades_EncuestasMoviles" assembly="Entidades_EncuestasMoviles">
+  <class name="THE_Usuario" table="SEML_THE_USUARIO">
+    <id name="UsuarioLlavePrimaria" column="USUA_LLAV_PR">
+      <generator class="sequence">
+        <param name="sequence">SEQ_SEML_THE_USUARIO</param>
+      </generator>
+    </id>
+
+    <many-to-one name="IdColonia" class="TDI_Colonias" column="ID_COLONIA" lazy="false"></many-to-one>
+
+    <property name="UsuarioNombre" column="USUA_NOMBRE"/>
+    <property name="UsuarioApellPaterno" column="USUA_APELLPATERNO"/>
+    <property name="UsuarioApellMaterno" column="USUA_APELLMATERNO"/>
+    <property name="UsuarioFechNacimiento" column="USUA_FECHNACIMIENTO"/>
+    <property name="UsuarioFoto" column="USUA_FOTOURL"/>
+    <property name="UsuarioEmail" column="USUA_EMAIL"/>
+    <property name="UsuarioCalleNum" column="USUA_CALLENUM"/>
+    <property name="UsuarioTelCasa" column="USUA_TELCASA"/>
+    <property name="UsuarioNumCelularPersonal" column="USUA_NUMCELPERSONAL"/>
+    <property name="UsuarioEstatus" column="USUA_ESTATUS"/>
+    <property name="UsuarioObse" column="USUA_OBSE"/>
+    <property name="UsuarioCodigoPostal" column="USUA_CP"/>
+    <property name="UsuarioSexo" column="SEXO"/>
+  </class>
+</hibernate-mapping>

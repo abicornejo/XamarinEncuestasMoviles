@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ENCUESTA_MOVIL", "ENCUESTA_MOVIL\ENCUESTA_MOVIL.csproj", "{7F069314-0E77-4497-AAC9-134397C302FA}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tvatfsapp:8080/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ENCUESTA_MOVIL\\ENCUESTA_MOVIL.csproj
+		SccProjectName1 = ENCUESTA_MOVIL
+		SccLocalPath1 = ENCUESTA_MOVIL
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F069314-0E77-4497-AAC9-134397C302FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F069314-0E77-4497-AAC9-134397C302FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F069314-0E77-4497-AAC9-134397C302FA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7F069314-0E77-4497-AAC9-134397C302FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F069314-0E77-4497-AAC9-134397C302FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

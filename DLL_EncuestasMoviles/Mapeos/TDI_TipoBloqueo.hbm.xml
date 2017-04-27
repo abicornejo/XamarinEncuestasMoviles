@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Entidades_EncuestasMoviles" assembly="Entidades_EncuestasMoviles">
+  <class name="TDI_TipoBloqueo" table="SEML_TDI_TIBL">
+    <id name="CveTipoBloqueo" column="TIBL_LLAV_PR">
+      <generator class="native"/>
+    </id>
+
+    <property name="DescTipoBloqueo" column="TIBL_DESC"/>
+    <property name="StatusTipoBloqueo" column="TIBL_STAT"/>
+  </class>
+</hibernate-mapping>

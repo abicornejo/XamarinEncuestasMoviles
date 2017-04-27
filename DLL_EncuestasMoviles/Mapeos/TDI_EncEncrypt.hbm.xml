@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Entidades_EncuestasMoviles" assembly="Entidades_EncuestasMoviles">
+  <class name="TDI_EncEncrypt" table="SEML_TDI_ENC_ENCRYPT">
+    <id name="IdEncEncrypt" column="ID_ENC_ENCRYPT">
+      <generator class="sequence">
+        <param name="sequence">SEQ_SEML_TDI_ENC_ENCRYPT</param>
+      </generator>
+    </id>
+    <property name="IdEncrypt" column="ENC_ENCRYPT"/>
+    <!--<property name="IdEncuesta" class="THE_Encuesta" column="ID_ENCUESTA"/>-->
+    <many-to-one name="IdEncuesta" class="THE_Encuesta" column="ID_ENCUESTA" lazy="false"></many-to-one>
+  </class>
+</hibernate-mapping>
+

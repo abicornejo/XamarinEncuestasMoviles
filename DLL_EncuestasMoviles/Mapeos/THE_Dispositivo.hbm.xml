@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Entidades_EncuestasMoviles" assembly="Entidades_EncuestasMoviles">
+  <class name="THE_Dispositivo" table="SEML_THE_DISPOSITIVO">
+    <id name="IdDispositivo" column="ID_DISPOSITIVO">
+      <generator class="sequence">
+        <param name="sequence">SEQ_SEML_THE_DISPOSITIVO</param>
+      </generator>
+    </id>
+
+    <property name="NumerodelTelefono" column="DISPO_NUMTELEFONO"/>
+    <property name="Modelo" column="DISPO_MODELO"/>
+    <property name="Marca" column="DISPO_MARCA"/>
+    <property name="ImagenTelefono" column="DISPO_IMAGENURL"/>
+    <property name="DispositivoDesc" column="DISPO_DESCRIPCION"/>
+    <property name="DispositivoMeid" column="DISPO_MEID"/>
+    <property name="DispositivoMdn" column="DISPO_MDN"/>
+    <property name="DispositivoEstatus" column="DISPO_ESTATUS"/>
+    <property name="TokenDispositivo" column="TOKEN_DISPOSITIVO" />
+
+  </class>
+</hibernate-mapping>

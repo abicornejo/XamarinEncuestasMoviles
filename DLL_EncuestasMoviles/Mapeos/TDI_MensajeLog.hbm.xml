@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Entidades_EncuestasMoviles" assembly="Entidades_EncuestasMoviles">
+  <class name="TDI_MensajeLog" table="SEML_TDI_MENSAJELOG">
+    <id name="IdMensajeLog" column="ID_MENSAJELOG">
+      <generator class="sequence">
+        <param name="sequence">SEQ_SEML_TDI_MENSAJELOG</param>
+      </generator>
+    </id>
+
+    <many-to-one name="IdMensaje" class="TDI_Mensaje" column="ID_MENSAJE" lazy="false"/>
+    <many-to-one name="IdDispositivo" class="THE_Dispositivo" column="ID_DISPOSITIVO" lazy="false"/>
+    <many-to-one name="EmpleadoLlavePrimaria" class="THE_Empleado" column="EMPL_LLAV_PR" lazy="false"/>
+
+    <property name="MensajeLogDescripcion" column="MENSAJELOG_DESC"/>
+    <property name="MensajeLogFecha" column="MENSAJELOG_FECHA"/>
+
+  </class>
+</hibernate-mapping>
+

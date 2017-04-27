@@ -1,0 +1,14 @@
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\PushSharp\bin\Debug\PushSharp.dll
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\PushSharp\bin\Debug\PushSharp.pdb
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\PushSharp\bin\Debug\PushSharp.Android.dll
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\PushSharp\bin\Debug\PushSharp.Apple.dll
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\PushSharp\bin\Debug\PushSharp.Blackberry.dll
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\PushSharp\bin\Debug\PushSharp.Common.dll
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\PushSharp\bin\Debug\Newtonsoft.Json.dll
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\PushSharp\bin\Debug\PushSharp.Android.pdb
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\PushSharp\bin\Debug\PushSharp.Apple.pdb
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\PushSharp\bin\Debug\PushSharp.Blackberry.pdb
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\PushSharp\bin\Debug\PushSharp.Common.pdb
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\PushSharp\obj\Debug\ResolveAssemblyReference.cache
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\PushSharp\obj\Debug\PushSharp.dll
+E:\TFS\TVA_EncuestasMobiles\4 - Desarrollo\Source\PushSharp\obj\Debug\PushSharp.pdb

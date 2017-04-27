@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Entidades_EncuestasMoviles" assembly="Entidades_EncuestasMoviles">
+  <class name="TDI_Colonias" table="SEML_TDI_COLONIAS">
+    <id name="IdColonia" column="ID_COLONIA">
+      <generator class="native"/>
+    </id>
+
+    <many-to-one name="IdMunicipio" class="TDI_Municipios" column="ID_MUNICIPIO" lazy="false"/>
+    <many-to-one name="IdAsentamiento" class="THE_TipoAsenta" column="ID_ASENTAMIENTO" lazy="false"/>
+    <many-to-one name="IdZona" class="THE_TipoZona" column="ID_ZONA" lazy="false"/>
+
+    <property name="ColoniaNombre" column="COLONIA_NOMBRE"/>
+  </class>
+</hibernate-mapping>
+

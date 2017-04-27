@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EncuestasMoviles.Clases.Error" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Clases\Error.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles.Controls.ctrlNewCatalogo" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAQAAgAAAIgACAAAAAAAAAQAEAAAAAIgAAIAABw=</HashCode>
+      <FileName>Controls\ctrlNewCatalogo.ascx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles.Controls.ctrlOpcionCatalogo" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAQACEAAAAgADAAABCAAAAAIUAAAAAAgAAIAABQ=</HashCode>
+      <FileName>Controls\ctrlOpcionCatalogo.ascx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles._Default" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQACAQAAhgQIUAACQAjAAABFAACqVxQAUAggAtgAkA=</HashCode>
+      <FileName>Default.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles.DefaultWsdlHelpGenerator" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>DefaultWsdlHelpGenerator.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles.Global" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEACCAgACEQAAACAAAAAECIBAAAABAAIAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles.MasterEncuesta" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAUAgABAIAAAAACBAEAAAAAAAAAAAAIiAEIAAgA=</HashCode>
+      <FileName>MasterEncuesta.Master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles.MessageBox" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEBAAREgAAAAAAhAAAEEAAAAAAACUACAAAEAQoEgEA=</HashCode>
+      <FileName>MessageBox.ascx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles.Utilerias" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAACAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Utilerias.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles.Pages.DispositivoInfo" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAABQCAAAAAIAAAA=</HashCode>
+      <FileName>Pages\DispositivoInfo.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles.Pages.ExportaPDF" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAEABAEAIAAiEAAIAAAAAAIAAAA=</HashCode>
+      <FileName>Pages\ExportaPDF.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles.Pages.frmArbolEncuesta" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAIAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Pages\frmArbolEncuesta.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles.Pages.frmCatalogos" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJAiAQQAAIAACAAAEAAAAAAhAAAFEAAgAEgARIAwEA=</HashCode>
+      <FileName>Pages\frmCatalogos.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles.Pages.frmDispoEncuesta" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwlEaBRGUAAAxIACwiEIAGgQggIUAAQgjAAgpAKBAEQ=</HashCode>
+      <FileName>Pages\frmDispoEncuesta.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles.Pages.frmDispositivos" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ALEIkIQAARiEAgAGoCuVAAAEDoAQEAAQBkIpQgFgAEA=</HashCode>
+      <FileName>Pages\frmDispositivos.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles.Pages.frmEncuestas" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ce7XQ9951/0hB72Guqjbrf3rvn1/9n/fvPHjZXr3/vY=</HashCode>
+      <FileName>Pages\frmEncuestas.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles.Pages.FrmProgramacionDispos" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAFAEAAEAIAAAFAEABQCwCCAATAQAACAAAAQAIAMAA=</HashCode>
+      <FileName>Pages\FrmProgramacionDispos.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles.Pages.frmUsuarios" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYJPZWQQYZJCwUF6RN3eMkvBxtAmYOrABYjsg0Bt0kk=</HashCode>
+      <FileName>Pages\frmUsuarios.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles.Pages.Grafica" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAJCRUMAAZYAoQKAAI5ABlhJTTtCDICAKBgTENhACI=</HashCode>
+      <FileName>Pages\Grafica.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles.Pages.InfoDispo" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAQQAAAAAAAEAAAIQAAAAAQAQAAAAIAAAA=</HashCode>
+      <FileName>Pages\InfoDispo.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles.Pages.Principal" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAI=</HashCode>
+      <FileName>Pages\Principal.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles.Pages.ReportePosicion" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAIIAEGAAAAAAAAIAAAAABKAAAAAAAAAAAIAABY=</HashCode>
+      <FileName>Pages\ReportePosicion.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles.Pages.ReporteRespuestaPorEncuesta" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAADAAABAADAAAAAAAAAAAAAAAAASAIAAAA=</HashCode>
+      <FileName>Pages\ReporteRespuestaPorEncuesta.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles.Pages.ReporteRuta" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACBAAEIIEEGAAAAAAEAIAQAAABKAEAAAAAAAAAIEABY=</HashCode>
+      <FileName>Pages\ReporteRuta.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles.Pages.ReporteTiempoRespuesta" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAJAADAAAgAAAgAAAAABAAAAAIAAAA=</HashCode>
+      <FileName>Pages\ReporteTiempoRespuesta.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles.Pages.Reportes.CoordenadasPrueba3" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACBAAEAIEEEAEAAAAEAIAQAAIBKAEAAgAAACAAIEAFY=</HashCode>
+      <FileName>Pages\Reportes\ReporteHistorialPosicionDispositivo.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles.Pages.Reportes.ReportePrueba" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAIABAAgAEAAAECAGAiBH4BCAAAAAIoAAA=</HashCode>
+      <FileName>Pages\Reportes\ReportePrueba.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles.Pages.Reportes.coordenadaspruebas2" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAgAAIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAIAAAQ=</HashCode>
+      <FileName>Pages\Reportes\ReporteUltimaPosicionDispositivo.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles.Properties.Settings" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles.LlaveMaestra.Service" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkDIABSARCARACQACQCQhgAIACFCcAAJiAAgAMEBAIE=</HashCode>
+      <FileName>Web References\LlaveMaestra\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles.LlaveMaestra.Azt_Serv1CompletedEventArgs" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\LlaveMaestra\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles.LlaveMaestra.Azt_Serv2CompletedEventArgs" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\LlaveMaestra\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles.LlaveMaestra.DatosEmpleadoLlavMaestCompletedEventArgs" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\LlaveMaestra\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles.LlaveMaestra.ValidarDataFingerCompletedEventArgs" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\LlaveMaestra\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles.LlaveMaestra.buscaNombresCompletedEventArgs" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\LlaveMaestra\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles.LlaveMaestra.gsLlaveMaestraCompletedEventArgs" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\LlaveMaestra\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles.LlaveMaestra.gsc_llaveCompletedEventArgs" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\LlaveMaestra\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles.LlaveMaestra.regresaDatosEmpleadoCompletedEventArgs" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\LlaveMaestra\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncuestasMoviles.LlaveMaestra.DatosEmpleadoDirectorioCompletedEventArgs" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\LlaveMaestra\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Delegate Name="EncuestasMoviles.LlaveMaestra.Azt_Serv1CompletedEventHandler" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\LlaveMaestra\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="EncuestasMoviles.LlaveMaestra.Azt_Serv2CompletedEventHandler" Collapsed="true">
+    <Position X="2.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\LlaveMaestra\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="EncuestasMoviles.LlaveMaestra.DatosEmpleadoLlavMaestCompletedEventHandler" Collapsed="true">
+    <Position X="7.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Web References\LlaveMaestra\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="EncuestasMoviles.LlaveMaestra.ValidarDataFingerCompletedEventHandler" Collapsed="true">
+    <Position X="2.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\LlaveMaestra\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="EncuestasMoviles.LlaveMaestra.buscaNombresCompletedEventHandler" Collapsed="true">
+    <Position X="4" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\LlaveMaestra\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="EncuestasMoviles.LlaveMaestra.gsLlaveMaestraCompletedEventHandler" Collapsed="true">
+    <Position X="11" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\LlaveMaestra\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="EncuestasMoviles.LlaveMaestra.gsc_llaveCompletedEventHandler" Collapsed="true">
+    <Position X="9.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\LlaveMaestra\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="EncuestasMoviles.LlaveMaestra.regresaDatosEmpleadoCompletedEventHandler" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\LlaveMaestra\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="EncuestasMoviles.LlaveMaestra.DatosEmpleadoDirectorioCompletedEventHandler" Collapsed="true">
+    <Position X="5.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\LlaveMaestra\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

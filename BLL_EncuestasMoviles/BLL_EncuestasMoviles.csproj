@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9C4A4290-8B0D-4369-B99E-3A5B7A5A9073}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BLL_EncuestasMoviles</RootNamespace>
+    <AssemblyName>BLL_EncuestasMoviles</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AdministracionDatos">
+      <HintPath>..\..\Shared Binaries\AdministracionDatos.dll</HintPath>
+    </Reference>
+    <Reference Include="ADServices">
+      <HintPath>..\..\Shared Binaries\ADServices.dll</HintPath>
+    </Reference>
+    <Reference Include="FileComService">
+      <HintPath>..\..\Shared Binaries\FileComService.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Shared Binaries\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="vbCryptoLibrary">
+      <HintPath>..\..\Shared Binaries\vbCryptoLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutenticaUsuario.cs" />
+    <Compile Include="Funciones.cs" />
+    <Compile Include="Llave.cs" />
+    <Compile Include="MngNegocioArbolEncuesta.cs" />
+    <Compile Include="MngNegocioBaseRespuestas.cs" />
+    <Compile Include="MngNegocioBloqueoIP.cs" />
+    <Compile Include="MngNegocioBloqueoUsuario.cs" />
+    <Compile Include="MngNegocioCatalogo.cs" />
+    <Compile Include="MngNegocioColonias.cs" />
+    <Compile Include="MngNegocioCPCol.cs" />
+    <Compile Include="MngNegocioDispositivo.cs" />
+    <Compile Include="MngNegocioEmpleadoRol.cs" />
+    <Compile Include="MngNegocioEncuesta.cs" />
+    <Compile Include="MngNegocioEncuestaDispositivo.cs" />
+    <Compile Include="MngNegocioEncuestaLog.cs" />
+    <Compile Include="MngNegocioEstado.cs" />
+    <Compile Include="MngNegocioEstatus.cs" />
+    <Compile Include="MngNegocioGraficas.cs" />
+    <Compile Include="MngNegocioLogAcceso.cs" />
+    <Compile Include="MngNegocioLogErrores.cs" />
+    <Compile Include="MngNegocioLogPaginas.cs" />
+    <Compile Include="MngNegocioLogRespSelected.cs" />
+    <Compile Include="MngNegocioMenu.cs" />
+    <Compile Include="MngNegocioMunicipios.cs" />
+    <Compile Include="MngNegocioNotificaciones.cs" />
+    <Compile Include="MngNegocioOpcionCat.cs" />
+    <Compile Include="MngNegocioPeriodoEncuesta.cs" />
+    <Compile Include="MngNegocioPorcentajeBateria.cs" />
+    <Compile Include="MngNegocioPreguntas.cs" />
+    <Compile Include="MngNegocioPreguntasRespuestas.cs" />
+    <Compile Include="MngNegocioProgramacion.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MngNegocioProgXFecha.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MngNegocioProgXSemana.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MngNegocioPushTran.cs" />
+    <Compile Include="MngNegocioRespuestas.cs" />
+    <Compile Include="MngNegocioTieneRespAleatorias.cs" />
+    <Compile Include="MngNegocioTipoAcceso.cs" />
+    <Compile Include="MngNegocioTipoAsenta.cs" />
+    <Compile Include="MngNegocioPresentacion.cs" />
+    <Compile Include="MngNegocioTipoEncuesta.cs" />
+    <Compile Include="MngNegocioTipoProgramacion.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MngNegocioTipoRespuestas.cs" />
+    <Compile Include="MngNegocioTipoZona.cs" />
+    <Compile Include="MngNegocioTransacciones.cs" />
+    <Compile Include="MngNegocioUsuario.cs" />
+    <Compile Include="MngNegocioUsuarioCat.cs" />
+    <Compile Include="MngNegocioUsuarioDispositivo.cs" />
+    <Compile Include="MngNegocioUsuarioSesion.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\LLaveMaestra\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DLL_EncuestasMoviles\DLL_EncuestasMoviles.csproj">
+      <Project>{0FEDE8FA-6472-40AE-9DA4-C171C2A1526F}</Project>
+      <Name>DLL_EncuestasMoviles</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entidades_EncuestasMoviles\Entidades_EncuestasMoviles.csproj">
+      <Project>{62A7A5C9-D417-4781-B92D-B0E8B80B8183}</Project>
+      <Name>Entidades_EncuestasMoviles</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://tvawebmam/WsAppLogin/Service.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\LLaveMaestra\</RelPath>
+      <UpdateFromURL>http://tvawebmam/WsAppLogin/Service.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>BLL_EncuestasMoviles_LLaveMaestra_Service</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\LLaveMaestra\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\LLaveMaestra\Service.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\LLaveMaestra\Service.disco" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

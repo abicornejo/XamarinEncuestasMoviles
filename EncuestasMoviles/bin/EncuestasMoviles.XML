@@ -1,0 +1,4896 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EncuestasMoviles</name>
+    </assembly>
+    <members>
+        <member name="F:EncuestasMoviles.Pages.FrmProgramacionDispos.lblEncabezado">
+            <summary>
+            lblEncabezado control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.FrmProgramacionDispos.divMensaje">
+            <summary>
+            divMensaje control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.FrmProgramacionDispos.btnAsignaDispos">
+            <summary>
+            btnAsignaDispos control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.FrmProgramacionDispos.Label1">
+            <summary>
+            Label1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.FrmProgramacionDispos.showdispo">
+            <summary>
+            showdispo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.FrmProgramacionDispos.pnlDispoAsig">
+            <summary>
+            pnlDispoAsig control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.FrmProgramacionDispos.pnlTitulopnlDispoAsig">
+            <summary>
+            pnlTitulopnlDispoAsig control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.FrmProgramacionDispos.headEditAddEnch2">
+            <summary>
+            headEditAddEnch2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.FrmProgramacionDispos.ImageButton4">
+            <summary>
+            ImageButton4 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.FrmProgramacionDispos.lblDescProgramacion">
+            <summary>
+            lblDescProgramacion control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.FrmProgramacionDispos.popupDisposAsignados">
+            <summary>
+            popupDisposAsignados control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.ReporteTiempoRespuesta.lblEncabezado">
+            <summary>
+            lblEncabezado control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.ReporteTiempoRespuesta.RadAjaxPanel1">
+            <summary>
+            RadAjaxPanel1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.ReporteTiempoRespuesta.RadComboBox1">
+            <summary>
+            RadComboBox1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.ReporteTiempoRespuesta.Button1">
+            <summary>
+            Button1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.ReporteTiempoRespuesta.ImgExportExcel">
+            <summary>
+            ImgExportExcel control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.ReporteTiempoRespuesta.gvTiempoRespuesta">
+            <summary>
+            gvTiempoRespuesta control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Reportes.coordenadaspruebas2.formulario">
+            <summary>
+            formulario control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Reportes.coordenadaspruebas2.ddlEmpleados">
+            <summary>
+            ddlEmpleados control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Reportes.coordenadaspruebas2.btnConsultar">
+            <summary>
+            btnConsultar control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.ReportePosicion.ddlEmpleados">
+            <summary>
+            ddlEmpleados control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.ReportePosicion.txtCalendario">
+            <summary>
+            txtCalendario control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.ReportePosicion.txtFechaFinal">
+            <summary>
+            txtFechaFinal control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.ReportePosicion.btnConsultar">
+            <summary>
+            btnConsultar control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.ReportePosicion.URLimagen">
+            <summary>
+            URLimagen control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.ReportePosicion.arrayCoordenadas">
+            <summary>
+            arrayCoordenadas control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.ReportePosicion.arrayCoordenadasH">
+            <summary>
+            arrayCoordenadasH control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.ReportePosicion.arrayDatos">
+            <summary>
+            arrayDatos control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.upgral">
+            <summary>
+            upgral control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.hfchkCrea">
+            <summary>
+            hfchkCrea control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.hfUltimaPos">
+            <summary>
+            hfUltimaPos control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.hdnIdEncPreview">
+            <summary>
+            hdnIdEncPreview control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.lblShowPreviewTree">
+            <summary>
+            lblShowPreviewTree control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.ctrlMessageBox">
+            <summary>
+            ctrlMessageBox control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.lblEncabezado">
+            <summary>
+            lblEncabezado control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.txtBusqNombEncu">
+            <summary>
+            txtBusqNombEncu control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.txtBusqFechIni">
+            <summary>
+            txtBusqFechIni control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.txtBusqFechFin">
+            <summary>
+            txtBusqFechFin control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.btnBuscaEncu">
+            <summary>
+            btnBuscaEncu control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.btnAdd">
+            <summary>
+            btnAdd control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.txtNomEncuesta">
+            <summary>
+            txtNomEncuesta control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.vcetxtNomEncuesta">
+            <summary>
+            vcetxtNomEncuesta control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.rfvtxtNomEncuesta">
+            <summary>
+            rfvtxtNomEncuesta control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.txtFechaLimEnc">
+            <summary>
+            txtFechaLimEnc control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.txtHoraLimEnc">
+            <summary>
+            txtHoraLimEnc control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.txtPuntosEncuesta">
+            <summary>
+            txtPuntosEncuesta control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.ValidatorCalloutExtender1">
+            <summary>
+            ValidatorCalloutExtender1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.rfvtxtPoEncuesta">
+            <summary>
+            rfvtxtPoEncuesta control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.ddlTipoEncuesta">
+            <summary>
+            ddlTipoEncuesta control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.txtMinRequ">
+            <summary>
+            txtMinRequ control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.txtMaxEsp">
+            <summary>
+            txtMaxEsp control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.upbtnGuardaEnc">
+            <summary>
+            upbtnGuardaEnc control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.btnGuardaNewEncuesta">
+            <summary>
+            btnGuardaNewEncuesta control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.gvEncuestas">
+            <summary>
+            gvEncuestas control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.pnlAddEdit">
+            <summary>
+            pnlAddEdit control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.pnlTituloAddEdit">
+            <summary>
+            pnlTituloAddEdit control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.headEditAddEnch2">
+            <summary>
+            headEditAddEnch2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.ImageButton4">
+            <summary>
+            ImageButton4 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.lblDescEnc">
+            <summary>
+            lblDescEnc control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.txtnomEncID">
+            <summary>
+            txtnomEncID control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.ValidatorCalloutExtender2">
+            <summary>
+            ValidatorCalloutExtender2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.RFVtxtnomEncID">
+            <summary>
+            RFVtxtnomEncID control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.fechLimiteEncID">
+            <summary>
+            fechLimiteEncID control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.ValidatorCalloutExtender5">
+            <summary>
+            ValidatorCalloutExtender5 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.RFVfechLimiteEncID">
+            <summary>
+            RFVfechLimiteEncID control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.horaLimitID">
+            <summary>
+            horaLimitID control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.ValidatorCalloutExtender6">
+            <summary>
+            ValidatorCalloutExtender6 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.RFVhoraLimitID">
+            <summary>
+            RFVhoraLimitID control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.txtPuntosEncID">
+            <summary>
+            txtPuntosEncID control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.ValidatorCalloutExtender3">
+            <summary>
+            ValidatorCalloutExtender3 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.RFVtxtPuntosEncID">
+            <summary>
+            RFVtxtPuntosEncID control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.cbTipoEncID">
+            <summary>
+            cbTipoEncID control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.ValidatorCalloutExtender4">
+            <summary>
+            ValidatorCalloutExtender4 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.RFVcbTipoEncID">
+            <summary>
+            RFVcbTipoEncID control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.btnSave">
+            <summary>
+            btnSave control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.btnCancel">
+            <summary>
+            btnCancel control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.modalIdEnc">
+            <summary>
+            modalIdEnc control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.modalEditorAdd">
+            <summary>
+            modalEditorAdd control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.lnkFake">
+            <summary>
+            lnkFake control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.popup">
+            <summary>
+            popup control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.btnProgramacion">
+            <summary>
+            btnProgramacion control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.btnCancelarModalProgramaciones">
+            <summary>
+            btnCancelarModalProgramaciones control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.lblEncProgramacion">
+            <summary>
+            lblEncProgramacion control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.mpeProgramaciones">
+            <summary>
+            mpeProgramaciones control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.pnl5">
+            <summary>
+            pnl5 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.pnlH5">
+            <summary>
+            pnlH5 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.btnCerrar5">
+            <summary>
+            btnCerrar5 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.lblEncuesta5">
+            <summary>
+            lblEncuesta5 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.txtProgramacion">
+            <summary>
+            txtProgramacion control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.vceProgramacion">
+            <summary>
+            vceProgramacion control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.rfvProgramacion">
+            <summary>
+            rfvProgramacion control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.cbTipoProgramacion">
+            <summary>
+            cbTipoProgramacion control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.btnGuardaProgramacion">
+            <summary>
+            btnGuardaProgramacion control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.gvProgramaciones">
+            <summary>
+            gvProgramaciones control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.btnPregunta">
+            <summary>
+            btnPregunta control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.btnCancelarModalPreguntas">
+            <summary>
+            btnCancelarModalPreguntas control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.lblEncPreg">
+            <summary>
+            lblEncPreg control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.mpePreguntas">
+            <summary>
+            mpePreguntas control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.pnl1">
+            <summary>
+            pnl1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.pnlH1">
+            <summary>
+            pnlH1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.btnCerrar">
+            <summary>
+            btnCerrar control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.lblEncuesta">
+            <summary>
+            lblEncuesta control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.txtPregunta">
+            <summary>
+            txtPregunta control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.vcePregu">
+            <summary>
+            vcePregu control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.rfvPregu">
+            <summary>
+            rfvPregu control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.cbTipoPregunta">
+            <summary>
+            cbTipoPregunta control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.cbRestriccionResp">
+            <summary>
+            cbRestriccionResp control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.btnGuardaPregunta">
+            <summary>
+            btnGuardaPregunta control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.gvPreguntas">
+            <summary>
+            gvPreguntas control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.CancelButtonPreview">
+            <summary>
+            CancelButtonPreview control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.lblPreview">
+            <summary>
+            lblPreview control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.mpePreview">
+            <summary>
+            mpePreview control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.PanelPreview">
+            <summary>
+            PanelPreview control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.pnlPreviewHead">
+            <summary>
+            pnlPreviewHead control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.ImageButton1">
+            <summary>
+            ImageButton1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.Label3">
+            <summary>
+            Label3 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.radPreviewTree">
+            <summary>
+            radPreviewTree control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.tvControl">
+            <summary>
+            tvControl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.CancelDetFecha">
+            <summary>
+            CancelDetFecha control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.LblProgramacionFecha">
+            <summary>
+            LblProgramacionFecha control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.mpeProgramacionDetFecha">
+            <summary>
+            mpeProgramacionDetFecha control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.pnlProgDetFecha">
+            <summary>
+            pnlProgDetFecha control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.pnlProgDetFechaHead">
+            <summary>
+            pnlProgDetFechaHead control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.btnCerrarProgramacionFecha">
+            <summary>
+            btnCerrarProgramacionFecha control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.LblProgramacionXFecha">
+            <summary>
+            LblProgramacionXFecha control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.LblIdProgramacionF">
+            <summary>
+            LblIdProgramacionF control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.CheckBTipoCarga">
+            <summary>
+            CheckBTipoCarga control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.LblMsg">
+            <summary>
+            LblMsg control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.btnAgregarHoras">
+            <summary>
+            btnAgregarHoras control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.BtnGuardarProgFec">
+            <summary>
+            BtnGuardarProgFec control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.LblFecha">
+            <summary>
+            LblFecha control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.RadDatePFechaProg">
+            <summary>
+            RadDatePFechaProg control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.LblHora">
+            <summary>
+            LblHora control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.RadTimePHoraProg">
+            <summary>
+            RadTimePHoraProg control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.LblTitSelecFechas">
+            <summary>
+            LblTitSelecFechas control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.RadCalProgXFecha">
+            <summary>
+            RadCalProgXFecha control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.CheckBHoras">
+            <summary>
+            CheckBHoras control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.LblFechaProgXFecha1">
+            <summary>
+            LblFechaProgXFecha1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.LblFechaProgXFecha2">
+            <summary>
+            LblFechaProgXFecha2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.LblHoraProgFechas">
+            <summary>
+            LblHoraProgFechas control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.RadTimePHora">
+            <summary>
+            RadTimePHora control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.gvProgXFecha">
+            <summary>
+            gvProgXFecha control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.CancelDetSemana">
+            <summary>
+            CancelDetSemana control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.LblProgramacionSemana">
+            <summary>
+            LblProgramacionSemana control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.mpeProgramacionDetSemana">
+            <summary>
+            mpeProgramacionDetSemana control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.pnlProgDetSemana">
+            <summary>
+            pnlProgDetSemana control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.PnlProgDetSemanaHead">
+            <summary>
+            PnlProgDetSemanaHead control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.btnCerrarProgramacionSemana">
+            <summary>
+            btnCerrarProgramacionSemana control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.LblProgramacionXSemana">
+            <summary>
+            LblProgramacionXSemana control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.LblIdProgramacionS">
+            <summary>
+            LblIdProgramacionS control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.LblMsgSem">
+            <summary>
+            LblMsgSem control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.BtnAsignar">
+            <summary>
+            BtnAsignar control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.BtnGuardarProgSem">
+            <summary>
+            BtnGuardarProgSem control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.CheckBMismaHoraSem">
+            <summary>
+            CheckBMismaHoraSem control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.LblDiasSem">
+            <summary>
+            LblDiasSem control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.CheckBoxLDiasSemana">
+            <summary>
+            CheckBoxLDiasSemana control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.LblEtiqDia">
+            <summary>
+            LblEtiqDia control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.LblDia">
+            <summary>
+            LblDia control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.LblHoraSem">
+            <summary>
+            LblHoraSem control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.RadTimePHoraSem">
+            <summary>
+            RadTimePHoraSem control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.gvProgXSemana">
+            <summary>
+            gvProgXSemana control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.CancelButton">
+            <summary>
+            CancelButton control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.lblEncResp">
+            <summary>
+            lblEncResp control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.mpeEncuestaRespuesta">
+            <summary>
+            mpeEncuestaRespuesta control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.pnlRespuestas">
+            <summary>
+            pnlRespuestas control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.pnlRespuestasHead">
+            <summary>
+            pnlRespuestasHead control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.btnCerrarRespuestas">
+            <summary>
+            btnCerrarRespuestas control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.lblRespuPreg">
+            <summary>
+            lblRespuPreg control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.lblIdPregunta">
+            <summary>
+            lblIdPregunta control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.txtRespuesta">
+            <summary>
+            txtRespuesta control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.AutoComplete1">
+            <summary>
+            AutoComplete1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.vceRespuesta">
+            <summary>
+            vceRespuesta control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.rfvRespuestas">
+            <summary>
+            rfvRespuestas control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.ddlRespuestasSig">
+            <summary>
+            ddlRespuestasSig control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.btnGuardaRespuesta">
+            <summary>
+            btnGuardaRespuesta control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.gvRespuestasGral">
+            <summary>
+            gvRespuestasGral control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.CancelButtonGrafica">
+            <summary>
+            CancelButtonGrafica control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.lblGraficaEncu">
+            <summary>
+            lblGraficaEncu control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.mpeGraficaEncuesta">
+            <summary>
+            mpeGraficaEncuesta control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.pnlGrafica">
+            <summary>
+            pnlGrafica control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.pnlGraficaHead">
+            <summary>
+            pnlGraficaHead control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.lblTitleGraficaEncu">
+            <summary>
+            lblTitleGraficaEncu control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.btnCancelGraficaEncu">
+            <summary>
+            btnCancelGraficaEncu control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.exportPDF">
+            <summary>
+            exportPDF control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.btnAtras">
+            <summary>
+            btnAtras control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.divTituloGraf">
+            <summary>
+            divTituloGraf control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.divDatos">
+            <summary>
+            divDatos control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.RadChart1">
+            <summary>
+            RadChart1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.CancelMdlReenvio">
+            <summary>
+            CancelMdlReenvio control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.lblShowMdlReenvio">
+            <summary>
+            lblShowMdlReenvio control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.ModalReenvioEncuesta">
+            <summary>
+            ModalReenvioEncuesta control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.PanelReenvioEncuesta">
+            <summary>
+            PanelReenvioEncuesta control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.PanelReenvioEncHead">
+            <summary>
+            PanelReenvioEncHead control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.h1TitleReenvio">
+            <summary>
+            h1TitleReenvio control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.ImageButton2">
+            <summary>
+            ImageButton2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.Label2">
+            <summary>
+            Label2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.idEncHiden">
+            <summary>
+            idEncHiden control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.listaDispositivos">
+            <summary>
+            listaDispositivos control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.btnReenvioEnc">
+            <summary>
+            btnReenvioEnc control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.CancelMdlCancelEnc">
+            <summary>
+            CancelMdlCancelEnc control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.lblShowMdlCancelEnc">
+            <summary>
+            lblShowMdlCancelEnc control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.ModalCancelaEncuesta">
+            <summary>
+            ModalCancelaEncuesta control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.PanelCancelaEncuesta">
+            <summary>
+            PanelCancelaEncuesta control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.PanelCancelarEncHead">
+            <summary>
+            PanelCancelarEncHead control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.h1">
+            <summary>
+            h1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.ImageButton3">
+            <summary>
+            ImageButton3 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.lstDispoTocancel">
+            <summary>
+            lstDispoTocancel control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.btnCancelenc">
+            <summary>
+            btnCancelenc control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmEncuestas.hdnIdEncuesta">
+            <summary>
+            hdnIdEncuesta control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmCatalogos.ctrlMessageBox">
+            <summary>
+            ctrlMessageBox control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmCatalogos.ctrlOpcionCat">
+            <summary>
+            ctrlOpcionCat control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmCatalogos.ctrlNewCat">
+            <summary>
+            ctrlNewCat control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmCatalogos.btnEliminaCatalogo">
+            <summary>
+            btnEliminaCatalogo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmCatalogos.btnModificaCatalogo">
+            <summary>
+            btnModificaCatalogo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmCatalogos.btnAgregaNuevo">
+            <summary>
+            btnAgregaNuevo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmCatalogos.hdnIdCatalogo">
+            <summary>
+            hdnIdCatalogo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmCatalogos.hdnDescCatalogo">
+            <summary>
+            hdnDescCatalogo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmCatalogos.btnNuevo">
+            <summary>
+            btnNuevo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmCatalogos.acModules">
+            <summary>
+            acModules control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.MessageBox.udpMsj">
+            <summary>
+            udpMsj control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.MessageBox.btnD">
+            <summary>
+            btnD control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.MessageBox.btnD2">
+            <summary>
+            btnD2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.MessageBox.pnlMsg">
+            <summary>
+            pnlMsg control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.MessageBox.pnlMsgHD">
+            <summary>
+            pnlMsgHD control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.MessageBox.lblTituMensaje">
+            <summary>
+            lblTituMensaje control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.MessageBox.grvMsg">
+            <summary>
+            grvMsg control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.MessageBox.btnOK">
+            <summary>
+            btnOK control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.MessageBox.btnPostOK">
+            <summary>
+            btnPostOK control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.MessageBox.btnPostCancel">
+            <summary>
+            btnPostCancel control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.MessageBox.mpeMsg">
+            <summary>
+            mpeMsg control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.MasterEncuesta.head">
+            <summary>
+            head control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.MasterEncuesta.Form2">
+            <summary>
+            Form2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.MasterEncuesta.ScriptManager1">
+            <summary>
+            ScriptManager1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.MasterEncuesta.ctrlMessageBox">
+            <summary>
+            ctrlMessageBox control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.MasterEncuesta.LinkButton1">
+            <summary>
+            LinkButton1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.MasterEncuesta.MenuPrincipal">
+            <summary>
+            MenuPrincipal control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.MasterEncuesta.Body">
+            <summary>
+            Body control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.InfoDispo.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.InfoDispo.lblDispoNum">
+            <summary>
+            lblDispoNum control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.InfoDispo.lblDispoModelo">
+            <summary>
+            lblDispoModelo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.InfoDispo.lblDispoMarca">
+            <summary>
+            lblDispoMarca control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.InfoDispo.lblDispoDesc">
+            <summary>
+            lblDispoDesc control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.InfoDispo.lblDispoMeid">
+            <summary>
+            lblDispoMeid control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.InfoDispo.lblDispoMdn">
+            <summary>
+            lblDispoMdn control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.InfoDispo.Label1">
+            <summary>
+            Label1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.InfoDispo.Label2">
+            <summary>
+            Label2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.InfoDispo.Label3">
+            <summary>
+            Label3 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Controls.ctrlNewCatalogo.ctrlMessageBox">
+            <summary>
+            ctrlMessageBox control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Controls.ctrlNewCatalogo.elimina">
+            <summary>
+            elimina control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Controls.ctrlNewCatalogo.Accion">
+            <summary>
+            Accion control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Controls.ctrlNewCatalogo.mpeNewCatalogo">
+            <summary>
+            mpeNewCatalogo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Controls.ctrlNewCatalogo.DivMensajes">
+            <summary>
+            DivMensajes control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Controls.ctrlNewCatalogo.Titulo">
+            <summary>
+            Titulo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Controls.ctrlNewCatalogo.btnCerrarModCat">
+            <summary>
+            btnCerrarModCat control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Controls.ctrlNewCatalogo.txtNomCat">
+            <summary>
+            txtNomCat control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Controls.ctrlNewCatalogo.vcetxtNomCat">
+            <summary>
+            vcetxtNomCat control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Controls.ctrlNewCatalogo.rfvtxtNomCat">
+            <summary>
+            rfvtxtNomCat control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Controls.ctrlNewCatalogo.btnAceptarCat">
+            <summary>
+            btnAceptarCat control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Grafica.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Grafica.runScrpt">
+            <summary>
+            runScrpt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Grafica.ctrlMessageBox">
+            <summary>
+            ctrlMessageBox control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Grafica.divMensaje">
+            <summary>
+            divMensaje control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Grafica.btnAgregaPregunta">
+            <summary>
+            btnAgregaPregunta control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Grafica.btnEnviaCorreos">
+            <summary>
+            btnEnviaCorreos control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Grafica.DvEmail">
+            <summary>
+            DvEmail control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Grafica.txtEmailPara">
+            <summary>
+            txtEmailPara control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Grafica.autoComplete1">
+            <summary>
+            autoComplete1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Grafica.txtNombreDe">
+            <summary>
+            txtNombreDe control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Grafica.btnEnviarGrafica">
+            <summary>
+            btnEnviarGrafica control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Grafica.divTitulo">
+            <summary>
+            divTitulo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Grafica.divTituloGraf">
+            <summary>
+            divTituloGraf control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Grafica.ddlPresentacion">
+            <summary>
+            ddlPresentacion control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Grafica.chkMostrarTodos">
+            <summary>
+            chkMostrarTodos control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Grafica.chkDentroHorario">
+            <summary>
+            chkDentroHorario control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Grafica.divDatos">
+            <summary>
+            divDatos control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Grafica.btnConsultar">
+            <summary>
+            btnConsultar control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Grafica.hfUltimaPos">
+            <summary>
+            hfUltimaPos control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Grafica.hdnIdEncuesta">
+            <summary>
+            hdnIdEncuesta control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Grafica.hdndivEmail">
+            <summary>
+            hdndivEmail control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Grafica.hdnIdSiguientePregunta">
+            <summary>
+            hdnIdSiguientePregunta control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Grafica.hdnTemporizador">
+            <summary>
+            hdnTemporizador control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Grafica.valImages">
+            <summary>
+            valImages control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Grafica.contentImages">
+            <summary>
+            contentImages control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.upgral">
+            <summary>
+            upgral control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.ctrlMessageBox">
+            <summary>
+            ctrlMessageBox control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.hfIdsEncuestas">
+            <summary>
+            hfIdsEncuestas control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.hfIdsDispositivos">
+            <summary>
+            hfIdsDispositivos control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.hfIdEncuestaUnico">
+            <summary>
+            hfIdEncuestaUnico control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.VistaActiva">
+            <summary>
+            VistaActiva control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.hfTipoFecha">
+            <summary>
+            hfTipoFecha control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.hfIdCat">
+            <summary>
+            hfIdCat control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.hfIdEncuGrafica">
+            <summary>
+            hfIdEncuGrafica control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.txtBuscaEncuesta">
+            <summary>
+            txtBuscaEncuesta control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.txtFechaIni">
+            <summary>
+            txtFechaIni control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.txtFechaFin">
+            <summary>
+            txtFechaFin control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.btnBuscaEncu">
+            <summary>
+            btnBuscaEncu control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.Button3">
+            <summary>
+            Button3 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.Label1">
+            <summary>
+            Label1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.txtBusUsua">
+            <summary>
+            txtBusUsua control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.Label2">
+            <summary>
+            Label2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.txtBusNumTel">
+            <summary>
+            txtBusNumTel control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.updEsta">
+            <summary>
+            updEsta control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.lblbusqEstado">
+            <summary>
+            lblbusqEstado control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.HiddenFieldSelect">
+            <summary>
+            HiddenFieldSelect control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.HiddenFieldMuni">
+            <summary>
+            HiddenFieldMuni control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.cboBusEstado">
+            <summary>
+            cboBusEstado control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.lblBusqMuni">
+            <summary>
+            lblBusqMuni control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.cboBusCiudad">
+            <summary>
+            cboBusCiudad control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.pnlCombos">
+            <summary>
+            pnlCombos control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.btnBuscaDispo">
+            <summary>
+            btnBuscaDispo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.Td2">
+            <summary>
+            Td2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.Td3">
+            <summary>
+            Td3 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.Td1">
+            <summary>
+            Td1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.btnReenviar">
+            <summary>
+            btnReenviar control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.btnGraficaEncuesta">
+            <summary>
+            btnGraficaEncuesta control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.btnEncuChk">
+            <summary>
+            btnEncuChk control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.btnSelecTodos">
+            <summary>
+            btnSelecTodos control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.gvDispoEncu">
+            <summary>
+            gvDispoEncu control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.tdViewImagen">
+            <summary>
+            tdViewImagen control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.lvDispositivosEncu">
+            <summary>
+            lvDispositivosEncu control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.tdViewDetails">
+            <summary>
+            tdViewDetails control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.ListView1">
+            <summary>
+            ListView1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.btnEnviaAsignados">
+            <summary>
+            btnEnviaAsignados control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispoEncuesta.hdnIdEncuesta">
+            <summary>
+            hdnIdEncuesta control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles._Default.Head1">
+            <summary>
+            Head1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles._Default.Form1">
+            <summary>
+            Form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles._Default.defa">
+            <summary>
+            defa control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles._Default.ctrlMessageBox">
+            <summary>
+            ctrlMessageBox control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles._Default.lblFecha">
+            <summary>
+            lblFecha control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles._Default.txtError">
+            <summary>
+            txtError control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles._Default.tdError">
+            <summary>
+            tdError control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles._Default.txtUsuario">
+            <summary>
+            txtUsuario control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles._Default.RequiredFieldValidator1">
+            <summary>
+            RequiredFieldValidator1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles._Default.txtContraseña">
+            <summary>
+            txtContraseña control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles._Default.RequiredFieldValidator2">
+            <summary>
+            RequiredFieldValidator2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles._Default.btnLogin">
+            <summary>
+            btnLogin control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles._Default.hdnE">
+            <summary>
+            hdnE control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles._Default.hdnN">
+            <summary>
+            hdnN control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles._Default.hdnSkin">
+            <summary>
+            hdnSkin control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles._Default.hdnLogIn">
+            <summary>
+            hdnLogIn control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles._Default.hdnNumUsuario">
+            <summary>
+            hdnNumUsuario control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles._Default.B">
+            <summary>
+            B control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles._Default.btnLogOutUsuario">
+            <summary>
+            btnLogOutUsuario control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles._Default.btnCloseSession">
+            <summary>
+            btnCloseSession control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles._Default.HidUsr">
+            <summary>
+            HidUsr control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:EncuestasMoviles.Pages.Reportes.ReportePrueba.InitializeComponent" -->
+        <member name="F:EncuestasMoviles.Pages.Reportes.ReportePrueba.exportPDF">
+            <summary>
+            exportPDF control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Reportes.ReportePrueba.TablaGraficas">
+            <summary>
+            TablaGraficas control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Reportes.ReportePrueba.RadChart1">
+            <summary>
+            RadChart1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Reportes.ReportePrueba.RadChart5">
+            <summary>
+            RadChart5 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Reportes.ReportePrueba.RadChart2">
+            <summary>
+            RadChart2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Reportes.ReportePrueba.RadChart11">
+            <summary>
+            RadChart11 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Reportes.ReportePrueba.RadChart12">
+            <summary>
+            RadChart12 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Reportes.ReportePrueba.RadChart3">
+            <summary>
+            RadChart3 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Reportes.ReportePrueba.RadChart13">
+            <summary>
+            RadChart13 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Reportes.ReportePrueba.RadChart14">
+            <summary>
+            RadChart14 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Reportes.ReportePrueba.RadChart15">
+            <summary>
+            RadChart15 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Reportes.ReportePrueba.RadChart16">
+            <summary>
+            RadChart16 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Reportes.ReportePrueba.RadChart4">
+            <summary>
+            RadChart4 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Reportes.ReportePrueba.RadChart6">
+            <summary>
+            RadChart6 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Reportes.ReportePrueba.RadChart7">
+            <summary>
+            RadChart7 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Reportes.ReportePrueba.RadChart8">
+            <summary>
+            RadChart8 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Reportes.ReportePrueba.RadChart9">
+            <summary>
+            RadChart9 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Reportes.ReportePrueba.RadChart10">
+            <summary>
+            RadChart10 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.hfIdRButton">
+            <summary>
+            hfIdRButton control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.ctrlMessageBox">
+            <summary>
+            ctrlMessageBox control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.Tabs">
+            <summary>
+            Tabs control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.divMensaje">
+            <summary>
+            divMensaje control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.btnNuevoUsuario">
+            <summary>
+            btnNuevoUsuario control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.txtBusqNombUsu">
+            <summary>
+            txtBusqNombUsu control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.DdlSexo">
+            <summary>
+            DdlSexo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.LblValida">
+            <summary>
+            LblValida control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.RadPBusqCatalogos">
+            <summary>
+            RadPBusqCatalogos control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.ImgExportPdf">
+            <summary>
+            ImgExportPdf control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.ImgExportExcel">
+            <summary>
+            ImgExportExcel control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.gvAltaUsuario">
+            <summary>
+            gvAltaUsuario control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.lblAsociaDispo">
+            <summary>
+            lblAsociaDispo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.mpeAsignaDisp">
+            <summary>
+            mpeAsignaDisp control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.pnlAsociaDispo">
+            <summary>
+            pnlAsociaDispo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.pnlAsociaDispoHead">
+            <summary>
+            pnlAsociaDispoHead control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.lblTitAsigna">
+            <summary>
+            lblTitAsigna control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.btnCerrarAsigna">
+            <summary>
+            btnCerrarAsigna control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.txtNumDispo">
+            <summary>
+            txtNumDispo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.VCNumDispo">
+            <summary>
+            VCNumDispo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.rfvNumDispo">
+            <summary>
+            rfvNumDispo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.btnBuscaDispo">
+            <summary>
+            btnBuscaDispo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.btnAceptaAsignado">
+            <summary>
+            btnAceptaAsignado control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.btnCancelarAD">
+            <summary>
+            btnCancelarAD control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.lvDispositivos">
+            <summary>
+            lvDispositivos control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.hfRutaImg">
+            <summary>
+            hfRutaImg control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.ModalAltaUsuario">
+            <summary>
+            ModalAltaUsuario control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.mpeAltaUsuario">
+            <summary>
+            mpeAltaUsuario control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.panelAltaUsuario">
+            <summary>
+            panelAltaUsuario control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.panelAltaUsuarioHead">
+            <summary>
+            panelAltaUsuarioHead control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.txtNombreUsuario">
+            <summary>
+            txtNombreUsuario control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.AValidaNombre">
+            <summary>
+            AValidaNombre control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.ValidaNombre">
+            <summary>
+            ValidaNombre control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.txtApellPaterno">
+            <summary>
+            txtApellPaterno control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.AValidaPater">
+            <summary>
+            AValidaPater control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.ValidaPater">
+            <summary>
+            ValidaPater control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.txtApellMaterno">
+            <summary>
+            txtApellMaterno control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.AValidaMater">
+            <summary>
+            AValidaMater control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.ValidaMater">
+            <summary>
+            ValidaMater control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.DdGenero">
+            <summary>
+            DdGenero control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.txtFechNacimiento">
+            <summary>
+            txtFechNacimiento control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.txtTelCasa">
+            <summary>
+            txtTelCasa control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.AValidaTelCasa">
+            <summary>
+            AValidaTelCasa control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.ValidaTelCasa">
+            <summary>
+            ValidaTelCasa control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.txtCelPersonal">
+            <summary>
+            txtCelPersonal control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.AValidaCelPer">
+            <summary>
+            AValidaCelPer control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.ValidaCelPer">
+            <summary>
+            ValidaCelPer control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.txtEmail">
+            <summary>
+            txtEmail control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.AValidaEmail">
+            <summary>
+            AValidaEmail control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.ValidaEmail">
+            <summary>
+            ValidaEmail control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.valEmai">
+            <summary>
+            valEmai control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.veEmai">
+            <summary>
+            veEmai control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.subeFotoUsuario">
+            <summary>
+            subeFotoUsuario control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.RegularExpressionValidator1">
+            <summary>
+            RegularExpressionValidator1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.txtObservaciones">
+            <summary>
+            txtObservaciones control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.AValidaObse">
+            <summary>
+            AValidaObse control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.ValidaObse">
+            <summary>
+            ValidaObse control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.txtDireccion">
+            <summary>
+            txtDireccion control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.AValidaDirecc">
+            <summary>
+            AValidaDirecc control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.ValidaDirecc">
+            <summary>
+            ValidaDirecc control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.txtCodigoP">
+            <summary>
+            txtCodigoP control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.AValidaCP">
+            <summary>
+            AValidaCP control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.validaCP">
+            <summary>
+            validaCP control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.btnCP">
+            <summary>
+            btnCP control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.dpEstado">
+            <summary>
+            dpEstado control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.dpMunicipio">
+            <summary>
+            dpMunicipio control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.dpAsentamiento">
+            <summary>
+            dpAsentamiento control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.dpZona">
+            <summary>
+            dpZona control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.dpColonia">
+            <summary>
+            dpColonia control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.btnGuardaAltaUsuario">
+            <summary>
+            btnGuardaAltaUsuario control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmUsuarios.acModules">
+            <summary>
+            acModules control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.ReporteRespuestaPorEncuesta.lblEncabezado">
+            <summary>
+            lblEncabezado control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.ReporteRespuestaPorEncuesta.divMensaje">
+            <summary>
+            divMensaje control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmArbolEncuesta.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmArbolEncuesta.tvArbolEncuesta">
+            <summary>
+            tvArbolEncuesta control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Controls.ctrlOpcionCatalogo.ctrlMessageBox">
+            <summary>
+            ctrlMessageBox control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Controls.ctrlOpcionCatalogo.elimina">
+            <summary>
+            elimina control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Controls.ctrlOpcionCatalogo.Accion">
+            <summary>
+            Accion control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Controls.ctrlOpcionCatalogo.IdCatalogo">
+            <summary>
+            IdCatalogo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Controls.ctrlOpcionCatalogo.mpeOpcionCatalogo">
+            <summary>
+            mpeOpcionCatalogo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Controls.ctrlOpcionCatalogo.DivMensajes">
+            <summary>
+            DivMensajes control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Controls.ctrlOpcionCatalogo.Titulo">
+            <summary>
+            Titulo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Controls.ctrlOpcionCatalogo.btnCerrarModOpcCat">
+            <summary>
+            btnCerrarModOpcCat control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Controls.ctrlOpcionCatalogo.txtNomOpcCat">
+            <summary>
+            txtNomOpcCat control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Controls.ctrlOpcionCatalogo.vcetxtNomOpcCat">
+            <summary>
+            vcetxtNomOpcCat control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Controls.ctrlOpcionCatalogo.rfvtxtNomOpcCat">
+            <summary>
+            rfvtxtNomOpcCat control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Controls.ctrlOpcionCatalogo.btnAceptar">
+            <summary>
+            btnAceptar control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:EncuestasMoviles.LlaveMaestra.Service">
+            <remarks/>
+        </member>
+        <member name="M:EncuestasMoviles.LlaveMaestra.Service.#ctor">
+            <remarks/>
+        </member>
+        <member name="M:EncuestasMoviles.LlaveMaestra.Service.Azt_Serv1(System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:EncuestasMoviles.LlaveMaestra.Service.Azt_Serv1Async(System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:EncuestasMoviles.LlaveMaestra.Service.Azt_Serv1Async(System.String,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:EncuestasMoviles.LlaveMaestra.Service.Azt_Serv2(System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:EncuestasMoviles.LlaveMaestra.Service.Azt_Serv2Async(System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:EncuestasMoviles.LlaveMaestra.Service.Azt_Serv2Async(System.String,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:EncuestasMoviles.LlaveMaestra.Service.DatosEmpleadoLlavMaest(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:EncuestasMoviles.LlaveMaestra.Service.DatosEmpleadoLlavMaestAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:EncuestasMoviles.LlaveMaestra.Service.DatosEmpleadoLlavMaestAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:EncuestasMoviles.LlaveMaestra.Service.ValidarDataFinger(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:EncuestasMoviles.LlaveMaestra.Service.ValidarDataFingerAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:EncuestasMoviles.LlaveMaestra.Service.ValidarDataFingerAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:EncuestasMoviles.LlaveMaestra.Service.buscaNombres(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:EncuestasMoviles.LlaveMaestra.Service.buscaNombresAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:EncuestasMoviles.LlaveMaestra.Service.buscaNombresAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:EncuestasMoviles.LlaveMaestra.Service.gsLlaveMaestra(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:EncuestasMoviles.LlaveMaestra.Service.gsLlaveMaestraAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:EncuestasMoviles.LlaveMaestra.Service.gsLlaveMaestraAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:EncuestasMoviles.LlaveMaestra.Service.gsc_llave(System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:EncuestasMoviles.LlaveMaestra.Service.gsc_llaveAsync(System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:EncuestasMoviles.LlaveMaestra.Service.gsc_llaveAsync(System.String,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:EncuestasMoviles.LlaveMaestra.Service.regresaDatosEmpleado(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:EncuestasMoviles.LlaveMaestra.Service.regresaDatosEmpleadoAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:EncuestasMoviles.LlaveMaestra.Service.regresaDatosEmpleadoAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:EncuestasMoviles.LlaveMaestra.Service.DatosEmpleadoDirectorio(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:EncuestasMoviles.LlaveMaestra.Service.DatosEmpleadoDirectorioAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:EncuestasMoviles.LlaveMaestra.Service.DatosEmpleadoDirectorioAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:EncuestasMoviles.LlaveMaestra.Service.CancelAsync(System.Object)">
+            <remarks/>
+        </member>
+        <member name="E:EncuestasMoviles.LlaveMaestra.Service.Azt_Serv1Completed">
+            <remarks/>
+        </member>
+        <member name="E:EncuestasMoviles.LlaveMaestra.Service.Azt_Serv2Completed">
+            <remarks/>
+        </member>
+        <member name="E:EncuestasMoviles.LlaveMaestra.Service.DatosEmpleadoLlavMaestCompleted">
+            <remarks/>
+        </member>
+        <member name="E:EncuestasMoviles.LlaveMaestra.Service.ValidarDataFingerCompleted">
+            <remarks/>
+        </member>
+        <member name="E:EncuestasMoviles.LlaveMaestra.Service.buscaNombresCompleted">
+            <remarks/>
+        </member>
+        <member name="E:EncuestasMoviles.LlaveMaestra.Service.gsLlaveMaestraCompleted">
+            <remarks/>
+        </member>
+        <member name="E:EncuestasMoviles.LlaveMaestra.Service.gsc_llaveCompleted">
+            <remarks/>
+        </member>
+        <member name="E:EncuestasMoviles.LlaveMaestra.Service.regresaDatosEmpleadoCompleted">
+            <remarks/>
+        </member>
+        <member name="E:EncuestasMoviles.LlaveMaestra.Service.DatosEmpleadoDirectorioCompleted">
+            <remarks/>
+        </member>
+        <member name="T:EncuestasMoviles.LlaveMaestra.Azt_Serv1CompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:EncuestasMoviles.LlaveMaestra.Azt_Serv1CompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:EncuestasMoviles.LlaveMaestra.Azt_Serv1CompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:EncuestasMoviles.LlaveMaestra.Azt_Serv2CompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:EncuestasMoviles.LlaveMaestra.Azt_Serv2CompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:EncuestasMoviles.LlaveMaestra.Azt_Serv2CompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:EncuestasMoviles.LlaveMaestra.DatosEmpleadoLlavMaestCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:EncuestasMoviles.LlaveMaestra.DatosEmpleadoLlavMaestCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:EncuestasMoviles.LlaveMaestra.DatosEmpleadoLlavMaestCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:EncuestasMoviles.LlaveMaestra.ValidarDataFingerCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:EncuestasMoviles.LlaveMaestra.ValidarDataFingerCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:EncuestasMoviles.LlaveMaestra.ValidarDataFingerCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:EncuestasMoviles.LlaveMaestra.buscaNombresCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:EncuestasMoviles.LlaveMaestra.buscaNombresCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:EncuestasMoviles.LlaveMaestra.buscaNombresCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:EncuestasMoviles.LlaveMaestra.gsLlaveMaestraCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:EncuestasMoviles.LlaveMaestra.gsLlaveMaestraCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:EncuestasMoviles.LlaveMaestra.gsLlaveMaestraCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:EncuestasMoviles.LlaveMaestra.gsc_llaveCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:EncuestasMoviles.LlaveMaestra.gsc_llaveCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:EncuestasMoviles.LlaveMaestra.gsc_llaveCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:EncuestasMoviles.LlaveMaestra.regresaDatosEmpleadoCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:EncuestasMoviles.LlaveMaestra.regresaDatosEmpleadoCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:EncuestasMoviles.LlaveMaestra.regresaDatosEmpleadoCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:EncuestasMoviles.LlaveMaestra.DatosEmpleadoDirectorioCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:EncuestasMoviles.LlaveMaestra.DatosEmpleadoDirectorioCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:EncuestasMoviles.LlaveMaestra.DatosEmpleadoDirectorioCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.ReporteRuta.ddlEmpleados">
+            <summary>
+            ddlEmpleados control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.ReporteRuta.txtCalendario">
+            <summary>
+            txtCalendario control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.ReporteRuta.txtFechaFinal">
+            <summary>
+            txtFechaFinal control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.ReporteRuta.URLimagen">
+            <summary>
+            URLimagen control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.ReporteRuta.arrayCoordenadas">
+            <summary>
+            arrayCoordenadas control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.ReporteRuta.arrayCoordenadasH">
+            <summary>
+            arrayCoordenadasH control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.ReporteRuta.arrayDatos">
+            <summary>
+            arrayDatos control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.ReporteRuta.btnConsultar">
+            <summary>
+            btnConsultar control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.ReporteRuta.trExportar">
+            <summary>
+            trExportar control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.ReporteRuta.Label1">
+            <summary>
+            Label1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.ReporteRuta.btnExportar">
+            <summary>
+            btnExportar control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.DispositivoInfo.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.DispositivoInfo.lblNombreUsua">
+            <summary>
+            lblNombreUsua control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.DispositivoInfo.lblDispoNum">
+            <summary>
+            lblDispoNum control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.DispositivoInfo.lblEstado">
+            <summary>
+            lblEstado control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.ExportaPDF.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.ExportaPDF.TablaGraficas">
+            <summary>
+            TablaGraficas control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.ExportaPDF.hdnIdEncuesta">
+            <summary>
+            hdnIdEncuesta control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.ExportaPDF.idtemporal">
+            <summary>
+            idtemporal control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Reportes.CoordenadasPrueba3.Head1">
+            <summary>
+            Head1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Reportes.CoordenadasPrueba3.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Reportes.CoordenadasPrueba3.ToolkitScriptManager1">
+            <summary>
+            ToolkitScriptManager1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Reportes.CoordenadasPrueba3.ddlEmpleados">
+            <summary>
+            ddlEmpleados control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Reportes.CoordenadasPrueba3.txtCalendario">
+            <summary>
+            txtCalendario control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Reportes.CoordenadasPrueba3.txtFechaFinal">
+            <summary>
+            txtFechaFinal control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Reportes.CoordenadasPrueba3.URLimagen">
+            <summary>
+            URLimagen control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Reportes.CoordenadasPrueba3.arrayCoordenadas">
+            <summary>
+            arrayCoordenadas control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Reportes.CoordenadasPrueba3.arrayCoordenadasH">
+            <summary>
+            arrayCoordenadasH control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Reportes.CoordenadasPrueba3.btnConsultar">
+            <summary>
+            btnConsultar control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Reportes.CoordenadasPrueba3.trExportar">
+            <summary>
+            trExportar control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Reportes.CoordenadasPrueba3.Label1">
+            <summary>
+            Label1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.Reportes.CoordenadasPrueba3.btnExportar">
+            <summary>
+            btnExportar control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.DefaultWsdlHelpGenerator.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.ctrlMessageBox">
+            <summary>
+            ctrlMessageBox control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.phMen">
+            <summary>
+            phMen control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.phCtrlDis">
+            <summary>
+            phCtrlDis control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.btnNuevoDispositivo">
+            <summary>
+            btnNuevoDispositivo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.gvAltaDispositivo">
+            <summary>
+            gvAltaDispositivo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.hfRutaImg">
+            <summary>
+            hfRutaImg control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.txtIdDispo">
+            <summary>
+            txtIdDispo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.txtImgaDispo">
+            <summary>
+            txtImgaDispo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.ModalAltaDispositivo">
+            <summary>
+            ModalAltaDispositivo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.mpeAltaDispositivo">
+            <summary>
+            mpeAltaDispositivo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.panelAltaDispositivo">
+            <summary>
+            panelAltaDispositivo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.panelAltaDispositivoHead">
+            <summary>
+            panelAltaDispositivoHead control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.lblTituloModalDispositivo">
+            <summary>
+            lblTituloModalDispositivo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.btnCerrarAltDisp">
+            <summary>
+            btnCerrarAltDisp control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.upAltaDisp">
+            <summary>
+            upAltaDisp control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.DivErrorres">
+            <summary>
+            DivErrorres control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.txtNumeroTelefono">
+            <summary>
+            txtNumeroTelefono control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.vcetxtNumeroTelefono">
+            <summary>
+            vcetxtNumeroTelefono control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.rfvtxtNumeroTelefono">
+            <summary>
+            rfvtxtNumeroTelefono control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.txtModeloTelefono">
+            <summary>
+            txtModeloTelefono control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.vcetxtModeloTelefono">
+            <summary>
+            vcetxtModeloTelefono control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.rfvtxtModeloTelefono">
+            <summary>
+            rfvtxtModeloTelefono control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.txtMarcaTelefono">
+            <summary>
+            txtMarcaTelefono control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.vcetxtMarcaTelefono">
+            <summary>
+            vcetxtMarcaTelefono control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.rfvtxtMarcaTelefono">
+            <summary>
+            rfvtxtMarcaTelefono control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.subeImagenTelefono">
+            <summary>
+            subeImagenTelefono control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.RegularExpressionValidator1">
+            <summary>
+            RegularExpressionValidator1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.txtDescTelefono">
+            <summary>
+            txtDescTelefono control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.vcetxtDescTelefono">
+            <summary>
+            vcetxtDescTelefono control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.rfvtxtDescTelefono">
+            <summary>
+            rfvtxtDescTelefono control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.txtMeidTelefono">
+            <summary>
+            txtMeidTelefono control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.vcetxtMeidTelefono">
+            <summary>
+            vcetxtMeidTelefono control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.rfvtxtMeidTelefono">
+            <summary>
+            rfvtxtMeidTelefono control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.txtMdnTelefono">
+            <summary>
+            txtMdnTelefono control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.ValidatorCalloutExtender5">
+            <summary>
+            ValidatorCalloutExtender5 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.rfvtxtMdnTelefono">
+            <summary>
+            rfvtxtMdnTelefono control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.btnGuardaAltaDispositivo">
+            <summary>
+            btnGuardaAltaDispositivo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:EncuestasMoviles.Pages.frmDispositivos.btnCancelarAltaDispositivo">
+            <summary>
+            btnCancelarAltaDispositivo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+    </members>
+</doc>

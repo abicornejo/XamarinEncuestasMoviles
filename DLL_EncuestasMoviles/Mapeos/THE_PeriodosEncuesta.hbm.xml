@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Entidades_EncuestasMoviles" assembly="Entidades_EncuestasMoviles">
+  <class name="THE_PeriodoEncuesta" table="SEML_THE_PERIODOS_ENCUESTA">
+    <id name="IdPeriodo" column="ID_PERIODO">
+      <generator class="sequence">
+        <param name="sequence">SEQ_SEML_PERIODOS_ENCUESTA</param>
+      </generator>
+    </id>
+
+    <many-to-one name="IdEncuesta" class="THE_Encuesta" column="ID_ENCUESTA" lazy="false"/>
+    <property name="Periodo" column="PERIODO"/>
+  </class>
+</hibernate-mapping>

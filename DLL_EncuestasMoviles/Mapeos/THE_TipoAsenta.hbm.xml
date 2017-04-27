@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Entidades_EncuestasMoviles" assembly="Entidades_EncuestasMoviles">
+  <class name="THE_TipoAsenta" table="SEML_THE_TIPOASENTA">
+    <id name="IdAsentamiento" column="ID_ASENTAMIENTO">
+      <generator class="native"/>
+    </id>
+
+    <property name="AsentamientoNombre" column="ASENTAMIENTO_NOMBRE"/>
+  </class>
+</hibernate-mapping>

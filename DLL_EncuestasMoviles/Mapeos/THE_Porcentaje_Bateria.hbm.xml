@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Entidades_EncuestasMoviles" assembly="Entidades_EncuestasMoviles">
+  <class name="THE_Porcentaje_Bateria" table="SEML_THE_PORCENTAJE_BATERIA">
+    <id name="IdRevision" column="ID_REVISION">
+      <generator class="sequence">
+        <param name="sequence">SEQ_SEML_PORCENTAJE_BAT</param>
+      </generator>
+    </id>
+
+    <property name="Numero_Telefonico" column="NUMERO_TEL"/>
+    <property name="Porcentaje_Bateria" column="PORCENTAJE_BATERIA"/>
+    <property name="Fecha_Revision" column="FECHA_REVISION_BATERIA"/>
+  </class>
+</hibernate-mapping>

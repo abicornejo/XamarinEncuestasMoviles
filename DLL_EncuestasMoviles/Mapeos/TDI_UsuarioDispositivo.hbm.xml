@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Entidades_EncuestasMoviles" assembly="Entidades_EncuestasMoviles">
+  <class name="TDI_UsuarioDispositivo" table="SEML_TDI_USUARIODISPOSITIVO">
+    <composite-id>
+      <key-many-to-one name="IdDispositivo" class="THE_Dispositivo" column="ID_DISPOSITIVO" />
+      <key-many-to-one name="UsuarioLlavePrimaria" class="THE_Usuario" column="USUA_LLAV_PR" />
+    </composite-id>
+
+    <property name="UsuaDispoEstatus" column="USUADISPO_ESTATUS"/>
+
+  </class>
+</hibernate-mapping>

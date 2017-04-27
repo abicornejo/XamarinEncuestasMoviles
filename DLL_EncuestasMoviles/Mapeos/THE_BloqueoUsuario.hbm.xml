@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Entidades_EncuestasMoviles" assembly="Entidades_EncuestasMoviles">
+  <class name="THE_BloqueoUsuario" table="SEML_THE_BLUSR">
+    <composite-id>
+      <key-many-to-one class="TDI_TipoBloqueo" name="TipoBloqueo" column="TIBL_LLAV_PR"/>
+      <key-property name="Usuario" column="EMPL_USUA" type="string"/>
+    </composite-id>
+
+    <many-to-one class="TDI_TipoBloqueo" name="TipoBloqueo" column="TIBL_LLAV_PR" lazy="false" update="false" insert="false" />
+    <many-to-one class="THE_Empleado" name="EmplLlavPr" column="EMPL_LLAV_PR" lazy="false" />
+  </class>
+</hibernate-mapping>

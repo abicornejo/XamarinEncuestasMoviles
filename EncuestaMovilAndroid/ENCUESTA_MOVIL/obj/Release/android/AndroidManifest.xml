@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:icon="@drawable/icon" android:installLocation="internalOnly" package="encuestas.moviles" android:versionCode="1" android:versionName="1.0">
+  <uses-sdk android:targetSdkVersion="10" android:minSdkVersion="8" />
+  <application android:label="Encuestas" android:icon="@drawable/icon" android:name="mono.android.app.Application">
+    <receiver android:name="azteca.azteca.Listening">
+      <intent-filter>
+        <action android:name="android.intent.action.BOOT_COMPLETED" />
+      </intent-filter>
+    </receiver>
+    <service android:name="encuesta_movil.servicio.ClsEnviaDatosProgramados" />
+    <activity android:icon="@drawable/icon" android:label="Encuestas" android:noHistory="true" android:theme="@style/Theme.Splash" android:name="encuesta_movil.ActividadInicial">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:icon="@drawable/icon" android:label="Encuestas" android:noHistory="true" android:theme="@style/Theme.Shelves" android:name="encuesta_movil.Activity1" />
+    <activity android:label="My Activity" android:name="encuesta_movil.ActividadFinal" />
+    <service android:name="encuesta_movil.servicio.ClsDemonio" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="encuestas.moviles.__mono_init__" />
+  </application>
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+  <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.HARDWARE_TEST" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+</manifest>

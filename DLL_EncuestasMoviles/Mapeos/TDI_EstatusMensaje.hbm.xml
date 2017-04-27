@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Entidades_EncuestasMoviles" assembly="Entidades_EncuestasMoviles">
+  <class name="TDI_EstatusMensaje" table="SEML_TDI_ESTATUSMENSAJE">
+    <id name="IdEstatusMensaje" column="ID_ESTATUSMENSAJE">
+      <generator class="native"/>
+    </id>
+
+    <property name="EstatusMensajeDescripcion" column="ESTATUSMENSAJE_DESC"/>
+
+  </class>
+</hibernate-mapping>
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/lblMensajeDialog"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:textColor="#045FB4"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textSize="15dip"
+        android:text="POR EL MOMENTO NO TIENE ENCUESTAS ASIGNADAS" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_vertical"
+        android:id="@+id/layoutDialog">
+        <ImageButton
+            android:id="@+id/btnAceptaAccion"
+            android:layout_width="94.0dp"
+            android:layout_height="30.0dp"
+            android:src="@drawable/btnAceptarsalir"
+            android:layout_gravity="center"
+            android:layout_marginBottom="0.0dp"
+            android:layout_marginRight="0.0dp"
+            android:layout_marginTop="15.0dp" />
+    </LinearLayout>
+</LinearLayout>

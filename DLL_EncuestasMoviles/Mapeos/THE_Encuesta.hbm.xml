@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Entidades_EncuestasMoviles" assembly="Entidades_EncuestasMoviles">
+  <class name="THE_Encuesta" table="SEML_THE_ENCUESTA">
+    <id name="IdEncuesta" column="ID_ENCUESTA">
+      <generator class="sequence">
+        <param name="sequence">SEQ_SEML_THE_ENCUESTA</param>
+      </generator>
+    </id>
+
+    <many-to-one name="EmpleadoLlavePrimaria" class="THE_Empleado" column="EMPL_LLAV_PR" lazy="false"/>
+    <many-to-one name="IdEstatus" class="TDI_Estatus" column="ID_ESTATUS" lazy="false"></many-to-one>
+    <many-to-one name="IdTipoEncuesta" class="TDI_TipoEncuesta" column="ID_TIPOENCUESTA" lazy="false"></many-to-one>
+    
+    <property name="NombreEncuesta" column="ENCUESTA_NOMBRE"/>
+    <property name="FechaCreaEncuesta" column="ENCUESTA_FECHCREA"/>
+    <property name="FechaLimiteEncuesta" column="ENCUESTA_FECHLIMITE"/>
+    <property name="EncuestaStat" column="ENCUESTA_STAT"/>
+    <property name="PuntosEncuesta" column="PUNTOS_ENCUESTA"/>
+    <property name="MinimoRequerido" column="MINREQUERIDO"/>
+    <property name="MaximoEsperado" column="MAXESPERADO"/>
+    <property name="HoraLimiteEncuesta" column="ENCUESTA_HORALIMITE"/>
+  </class>
+</hibernate-mapping>
+
+
+

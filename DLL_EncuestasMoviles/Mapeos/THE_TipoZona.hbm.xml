@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Entidades_EncuestasMoviles" assembly="Entidades_EncuestasMoviles">
+  <class name="THE_TipoZona" table="SEML_THE_TIPOZONA">
+    <id name="IdZona" column="ID_ZONA">
+      <generator class="native"/>
+    </id>
+
+    <property name="ZonaNombre" column="ZONA_NOMBRE"/>
+  </class>
+</hibernate-mapping>
+

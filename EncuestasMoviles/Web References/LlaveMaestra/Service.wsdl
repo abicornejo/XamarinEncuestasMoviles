@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="Azt_Serv1">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Param1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Param2" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Azt_Serv1Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Azt_Serv1Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Azt_Serv2">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Param1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Param2" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Azt_Serv2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Azt_Serv2Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DatosEmpleadoLlavMaest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LlavMaest" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DatosEmpleadoLlavMaestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DatosEmpleadoLlavMaestResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValidarDataFinger">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Param1" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValidarDataFingerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ValidarDataFingerResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="buscaNombres">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strNombre" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="buscaNombresResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="buscaNombresResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="gsLlaveMaestra">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strXMLencript" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="gsLlaveMaestraResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="gsLlaveMaestraResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="gsc_llave">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Param1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Param2" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="gsc_llaveResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="gsc_llaveResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="regresaDatosEmpleado">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LlavMaest" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="regresaDatosEmpleadoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="regresaDatosEmpleadoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DatosEmpleadoDirectorio">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LlavMaest" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DatosEmpleadoDirectorioResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DatosEmpleadoDirectorioResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="Azt_Serv1SoapIn">
+    <wsdl:part name="parameters" element="tns:Azt_Serv1" />
+  </wsdl:message>
+  <wsdl:message name="Azt_Serv1SoapOut">
+    <wsdl:part name="parameters" element="tns:Azt_Serv1Response" />
+  </wsdl:message>
+  <wsdl:message name="Azt_Serv2SoapIn">
+    <wsdl:part name="parameters" element="tns:Azt_Serv2" />
+  </wsdl:message>
+  <wsdl:message name="Azt_Serv2SoapOut">
+    <wsdl:part name="parameters" element="tns:Azt_Serv2Response" />
+  </wsdl:message>
+  <wsdl:message name="DatosEmpleadoLlavMaestSoapIn">
+    <wsdl:part name="parameters" element="tns:DatosEmpleadoLlavMaest" />
+  </wsdl:message>
+  <wsdl:message name="DatosEmpleadoLlavMaestSoapOut">
+    <wsdl:part name="parameters" element="tns:DatosEmpleadoLlavMaestResponse" />
+  </wsdl:message>
+  <wsdl:message name="ValidarDataFingerSoapIn">
+    <wsdl:part name="parameters" element="tns:ValidarDataFinger" />
+  </wsdl:message>
+  <wsdl:message name="ValidarDataFingerSoapOut">
+    <wsdl:part name="parameters" element="tns:ValidarDataFingerResponse" />
+  </wsdl:message>
+  <wsdl:message name="buscaNombresSoapIn">
+    <wsdl:part name="parameters" element="tns:buscaNombres" />
+  </wsdl:message>
+  <wsdl:message name="buscaNombresSoapOut">
+    <wsdl:part name="parameters" element="tns:buscaNombresResponse" />
+  </wsdl:message>
+  <wsdl:message name="gsLlaveMaestraSoapIn">
+    <wsdl:part name="parameters" element="tns:gsLlaveMaestra" />
+  </wsdl:message>
+  <wsdl:message name="gsLlaveMaestraSoapOut">
+    <wsdl:part name="parameters" element="tns:gsLlaveMaestraResponse" />
+  </wsdl:message>
+  <wsdl:message name="gsc_llaveSoapIn">
+    <wsdl:part name="parameters" element="tns:gsc_llave" />
+  </wsdl:message>
+  <wsdl:message name="gsc_llaveSoapOut">
+    <wsdl:part name="parameters" element="tns:gsc_llaveResponse" />
+  </wsdl:message>
+  <wsdl:message name="regresaDatosEmpleadoSoapIn">
+    <wsdl:part name="parameters" element="tns:regresaDatosEmpleado" />
+  </wsdl:message>
+  <wsdl:message name="regresaDatosEmpleadoSoapOut">
+    <wsdl:part name="parameters" element="tns:regresaDatosEmpleadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="DatosEmpleadoDirectorioSoapIn">
+    <wsdl:part name="parameters" element="tns:DatosEmpleadoDirectorio" />
+  </wsdl:message>
+  <wsdl:message name="DatosEmpleadoDirectorioSoapOut">
+    <wsdl:part name="parameters" element="tns:DatosEmpleadoDirectorioResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceSoap">
+    <wsdl:operation name="Azt_Serv1">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Azt_Serv1 DDEC</wsdl:documentation>
+      <wsdl:input message="tns:Azt_Serv1SoapIn" />
+      <wsdl:output message="tns:Azt_Serv1SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Azt_Serv2">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Azt_Serv2 EC</wsdl:documentation>
+      <wsdl:input message="tns:Azt_Serv2SoapIn" />
+      <wsdl:output message="tns:Azt_Serv2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DatosEmpleadoLlavMaest">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Devuelve los datos de un Empleado Según su Llave Maestra</wsdl:documentation>
+      <wsdl:input message="tns:DatosEmpleadoLlavMaestSoapIn" />
+      <wsdl:output message="tns:DatosEmpleadoLlavMaestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidarDataFinger">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Validación de Huella, </wsdl:documentation>
+      <wsdl:input message="tns:ValidarDataFingerSoapIn" />
+      <wsdl:output message="tns:ValidarDataFingerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="buscaNombres">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Regresa un XML de una busqueda de una parte del nombre y regresa todos los similares</wsdl:documentation>
+      <wsdl:input message="tns:buscaNombresSoapIn" />
+      <wsdl:output message="tns:buscaNombresSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="gsLlaveMaestra">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">gsc_llave SS Texto</wsdl:documentation>
+      <wsdl:input message="tns:gsLlaveMaestraSoapIn" />
+      <wsdl:output message="tns:gsLlaveMaestraSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="gsc_llave">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">gsc_llave SS</wsdl:documentation>
+      <wsdl:input message="tns:gsc_llaveSoapIn" />
+      <wsdl:output message="tns:gsc_llaveSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="regresaDatosEmpleado">
+      <wsdl:input message="tns:regresaDatosEmpleadoSoapIn" />
+      <wsdl:output message="tns:regresaDatosEmpleadoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DatosEmpleadoDirectorio">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Datos para Mapa de Talento joven</wsdl:documentation>
+      <wsdl:input message="tns:DatosEmpleadoDirectorioSoapIn" />
+      <wsdl:output message="tns:DatosEmpleadoDirectorioSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceSoap" type="tns:ServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Azt_Serv1">
+      <soap:operation soapAction="http://tempuri.org/Azt_Serv1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Azt_Serv2">
+      <soap:operation soapAction="http://tempuri.org/Azt_Serv2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DatosEmpleadoLlavMaest">
+      <soap:operation soapAction="http://tempuri.org/DatosEmpleadoLlavMaest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidarDataFinger">
+      <soap:operation soapAction="http://tempuri.org/ValidarDataFinger" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="buscaNombres">
+      <soap:operation soapAction="http://tempuri.org/buscaNombres" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="gsLlaveMaestra">
+      <soap:operation soapAction="http://tempuri.org/gsLlaveMaestra" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="gsc_llave">
+      <soap:operation soapAction="http://tempuri.org/gsc_llave" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="regresaDatosEmpleado">
+      <soap:operation soapAction="http://tempuri.org/regresaDatosEmpleado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DatosEmpleadoDirectorio">
+      <soap:operation soapAction="http://tempuri.org/DatosEmpleadoDirectorio" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceSoap12" type="tns:ServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Azt_Serv1">
+      <soap12:operation soapAction="http://tempuri.org/Azt_Serv1" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Azt_Serv2">
+      <soap12:operation soapAction="http://tempuri.org/Azt_Serv2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DatosEmpleadoLlavMaest">
+      <soap12:operation soapAction="http://tempuri.org/DatosEmpleadoLlavMaest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidarDataFinger">
+      <soap12:operation soapAction="http://tempuri.org/ValidarDataFinger" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="buscaNombres">
+      <soap12:operation soapAction="http://tempuri.org/buscaNombres" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="gsLlaveMaestra">
+      <soap12:operation soapAction="http://tempuri.org/gsLlaveMaestra" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="gsc_llave">
+      <soap12:operation soapAction="http://tempuri.org/gsc_llave" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="regresaDatosEmpleado">
+      <soap12:operation soapAction="http://tempuri.org/regresaDatosEmpleado" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DatosEmpleadoDirectorio">
+      <soap12:operation soapAction="http://tempuri.org/DatosEmpleadoDirectorio" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="ServiceSoap" binding="tns:ServiceSoap">
+      <soap:address location="http://tvawebmam101/WsAppLogin/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceSoap12" binding="tns:ServiceSoap12">
+      <soap12:address location="http://tvawebmam101/WsAppLogin/Service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Entidades_EncuestasMoviles" assembly="Entidades_EncuestasMoviles">
+  <class name="THE_SesionUsuario" table="SEML_THE_SESION_USUARIO">
+    <id name="IdSesion" column="ID_SESION">
+      <generator class="sequence">
+        <param name="sequence">SEQ_SEML_THE_SESIONUSUARIO</param>
+      </generator>
+    </id>
+
+    <many-to-one class="THE_Empleado" name="EmplLlavPr" column="EMPL_LLAV_PR" lazy="false" update="true"/>
+
+    <property name="FechaCreacion" column="FECH_CREACION"/>    
+    <property name="DirIP" column="IP_USR"/>
+    
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Entidades_EncuestasMoviles" assembly="Entidades_EncuestasMoviles">
+  <class name="THE_LogTran" table="SEML_THE_LOGT">
+    <id name="LogtLlavPr" column="LOGT_LLAV_PR">
+      <generator class="sequence">
+        <param name="sequence">SEQ_SEML_THE_LOGT</param>
+      </generator>
+    </id>
+
+    <many-to-one name="TranLlavPr" class="TDI_Transacc" column="TRAN_LLAV_PR" lazy="false"/>
+    <many-to-one name="EmplLlavPr" class="THE_Empleado" column="EMPL_LLAV_PR" lazy="false"/>
+
+    <property name="LogtUsua" column="EMPL_USUA" />
+    <property name="LogtFech" column="LOGT_FECH"/>
+    <property name="LogtUsIp" column="LOGT_USIP"/>
+    <property name="LogtDesc" column="LOGT_DESC"/>
+    <property name="LogtDomi" column="LOGT_DOMI"/>
+    <property name="LogtMach" column="LOGT_MACH"/>
+
+  </class>
+</hibernate-mapping>
+
